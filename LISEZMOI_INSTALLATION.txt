@@ -1,0 +1,46 @@
+KIT CHEF DE PROJET (MODE AUTONOME) - Locksmith Wars
+=====================================================
+
+1. INSTALLER LE KIT
+   Dézippe tout dans C:\Users\blanc\Locksmith_Wars (le dossier où tu lances Claude Code).
+   Tu dois obtenir : CLAUDE.md, .claude\agents\ (3 agents), .claude\settings.local.json,
+   docs\ (contexte, suivi, commentaires, cahier des charges), scripts\upload_to_roblox.py.
+   Le dossier .claude peut être caché : Explorateur > Affichage > Afficher > Éléments masqués.
+   Ne remplace pas tes scripts existants dans scripts\ (lw_common.py, cal.py, ore.py...) : le kit
+   n'ajoute que upload_to_roblox.py.
+
+2. CONNECTER CLAUDE CODE À ROBLOX STUDIO
+   Il faut que Claude Code voie Studio, comme il voit déjà Blender. Suis la documentation officielle
+   de Roblox sur le serveur MCP de Studio (ou demande à Claude Code de t'aider à le faire).
+   Ensuite, tape /mcp : tu dois voir « blender » ET le serveur Roblox Studio, tous deux connectés.
+   Dans .claude\settings.local.json, ajoute dans "allow" une ligne "mcp__<nom du serveur Roblox>"
+   (le nom affiché par /mcp), pour que l'agent Roblox n'ait pas à te demander la permission.
+
+3. CRÉER LA CLÉ API ROBLOX (pour l'envoi automatique des modèles)
+   a. Sur create.roblox.com, ouvre le Creator Dashboard et choisis le GROUPE WingedSword Empire
+      en haut à gauche (si tu ne peux pas créer de clé pour le groupe, c'est ton pote, propriétaire
+      du groupe, qui doit le faire et te la transmettre).
+   b. Menu Open Cloud > Clés API > Créer une clé API.
+      - Nom : locksmith-claude
+      - Autorisations : ajoute l'API « Assets » avec les opérations lecture ET écriture.
+      - Sécurité : ajoute ton adresse IP (ou 0.0.0.0/0 si ton IP change souvent).
+      - Expiration : une date dans quelques mois.
+   c. Copie la clé (elle ne s'affiche qu'une fois). Dans PowerShell :
+         setx ROBLOX_API_KEY "colle-la-cle-ici"
+      Ferme puis rouvre PowerShell ET Claude Code pour qu'il la voie.
+   ⚠️ Ne colle jamais la clé dans un fichier ni dans une conversation. Si elle fuite, supprime-la
+      sur le Creator Dashboard et recrée-en une.
+   d. Test : demande à Claude Code de lancer
+         uv run scripts/upload_to_roblox.py exports/CAL/CAL_Cube_1x1x1.fbx
+      Il doit afficher un assetId.
+
+4. AVANT CHAQUE SESSION AUTONOME
+   - Blender ouvert, onglet MCP for Blender : serveur démarré.
+   - Roblox Studio ouvert sur « Guerres des serruriers », en mode Édition, sans y toucher pendant la session.
+   - PC branché, mise en veille désactivée pendant la session.
+   - Dans Claude Code : "Lance une session autonome selon CLAUDE.md."
+
+5. EN FIN DE SESSION
+   - Lis le rapport dans docs\rapports\ et va voir ce qu'il indique dans Studio.
+   - Écris tes retours dans docs\COMMENTAIRES.md (section « À traiter »).
+   - La session suivante commencera par les traiter.

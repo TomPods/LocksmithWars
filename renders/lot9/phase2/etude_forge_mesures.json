@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-18",
+ "copie": "Workspace.MapStudy_B (copie de MapDraft_B translatée de (0,0,900), origine monde (1600,0,900))",
+ "methode": "PathfindingService AgentRadius 2, AgentHeight 5, AgentCanJump true, mode Édition ; temps = longueur / 16. Départ coffre = repère VaultDoor_PlotN ; cible = AnvilStand de l'option (3 studs devant l'enclume, côté joueur). Visibilité : 9 points de la face avant de chaque coffre, œil (0,7,0) pour la mine et SpawnPad + 5 pour l'apparition.",
+ "options": {
+  "Opt0_Actuelle": {
+   "enclume_rel": [0, 1.5, -132],
+   "parcelle_vers_enclume_s": {"P1": 3.00, "P2": 4.99, "P3": 11.68, "P4": 13.65, "P5": 3.00, "P6": 4.99, "P7": 11.69, "P8": 13.66},
+   "plus_loin": "P8 218.6 studs 13.66 s",
+   "apparition_vers_enclume": "17.0 studs 1.06 s",
+   "centre_mine_vers_enclume": "129.6 studs 8.10 s",
+   "gisement_le_plus_proche_vers_enclume_s": 7.09,
+   "coffres_visibles_depuis_mine": 8,
+   "coffres_visibles_depuis_apparition": 8,
+   "enclume_visible_depuis_apparition": true
+  },
+  "Opt1_AlcoveEst": {
+   "enclume_rel": [45, 1.5, 0],
+   "parcelle_vers_enclume_s": {"P1": 6.74, "P2": 5.72, "P3": 5.68, "P4": 6.73, "P5": 6.02, "P6": 3.91, "P7": 3.91, "P8": 6.02},
+   "plus_loin": "P1 107.8 studs 6.74 s",
+   "apparition_vers_enclume": "123.9 studs 7.74 s",
+   "centre_mine_vers_enclume": "53.3 studs 3.33 s",
+   "gisement_le_plus_proche_vers_enclume_s": 1.88,
+   "coffres_visibles_depuis_mine": 8,
+   "coffres_visibles_depuis_apparition": 8,
+   "enclume_visible_depuis_apparition": false,
+   "cheminee_visible_depuis_apparition": "non à hauteur d'œil 5 (rayon), oui sur la capture à y = 9",
+   "marche_reelle_P8_vers_enclume": {"chemin_calcule_studs": 96.34, "temps_calcule_s": 6.02, "temps_reel_s": 5.91, "distance_parcourue": 95.2, "vitesse_moy": 16.11, "arrivee_a": 0.48, "methode": "Humanoid:MoveTo côté client, waypoint suivant à < 2,5 studs, WalkSpeed 16"}
+  },
+  "Opt2_AngleNO": {
+   "enclume_rel": [-34, 1.5, -26],
+   "parcelle_vers_enclume_s": {"P1": 4.06, "P2": 1.94, "P3": 4.92, "P4": 7.03, "P5": 5.08, "P6": 3.73, "P7": 6.83, "P8": 8.90},
+   "plus_loin": "P8 142.5 studs 8.90 s",
+   "apparition_vers_enclume": "93.7 studs 5.85 s",
+   "centre_mine_vers_enclume": "53.1 studs 3.32 s",
+   "gisement_le_plus_proche_vers_enclume_s": 1.48,
+   "coffres_visibles_depuis_mine": 8,
+   "coffres_visibles_depuis_apparition": 8,
+   "enclume_visible_depuis_apparition": false
+  }
+ },
+ "mine_vers_coffre_s_toutes_options": {"P1": 5.66, "P2": 3.81, "P3": 3.76, "P4": 5.87, "P5": 5.60, "P6": 3.76, "P7": 3.60, "P8": 5.57},
+ "note_mine_vers_coffre": "Identique pour les 3 options (parcelles non déplacées). Re-mesuré le même jour sur MapDraft_B : P4 93.95 studs (5.87 s) ; l'écart avec B_mesures.json (5.54 s) vient du calcul de chemin, pas de la carte.",
+ "apparition_vers_centre_mine": "113.2 studs 7.08 s"
+}

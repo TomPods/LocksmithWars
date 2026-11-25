@@ -1,0 +1,312 @@
+{
+  "CAL_Cube_1x1x1": {
+    "assetId": "73335461523854",
+    "moderation": "Approved",
+    "file": "exports/CAL/CAL_Cube_1x1x1.fbx",
+    "uploadedAt": "2026-11-13 14:51:20"
+  },
+  "ORE_F1": {
+    "assetId": "85320975981286",
+    "moderation": "Approved",
+    "file": "exports/ORE/ORE_F1.fbx",
+    "uploadedAt": "2026-11-13 15:18:45"
+  },
+  "ORE_F2": {
+    "assetId": "101933487592931",
+    "moderation": "Approved",
+    "file": "exports/ORE/ORE_F2.fbx",
+    "uploadedAt": "2026-11-13 15:18:56"
+  },
+  "ORE_F3": {
+    "assetId": "140608738140145",
+    "moderation": "Approved",
+    "file": "exports/ORE/ORE_F3.fbx",
+    "uploadedAt": "2026-11-13 15:19:04"
+  },
+  "ORE_F4": {
+    "assetId": "79029434181989",
+    "moderation": "Approved",
+    "file": "exports/ORE/ORE_F4.fbx",
+    "uploadedAt": "2026-11-13 15:19:12"
+  },
+  "ORE_Rubble": {
+    "assetId": "104269883380939",
+    "moderation": "Approved",
+    "file": "exports/ORE/ORE_Rubble.fbx",
+    "uploadedAt": "2026-11-13 15:19:24"
+  },
+  "ORE_Chunk": {
+    "assetId": "104560880212419",
+    "moderation": "Approved",
+    "file": "exports/ORE/ORE_Chunk.fbx",
+    "uploadedAt": "2026-11-13 15:19:32"
+  },
+  "ING_Bar": {
+    "assetId": "93085736833656",
+    "moderation": "Approved",
+    "file": "exports/ING/ING_Bar.fbx",
+    "uploadedAt": "2026-11-13 15:19:43"
+  },
+  "TOOL_Pickaxe": {
+    "assetId": "112858761155804",
+    "moderation": "Approved",
+    "file": "exports/TOOL/TOOL_Pickaxe.fbx",
+    "uploadedAt": "2026-11-13 15:19:54"
+  },
+  "TOOL_Hammer": {
+    "assetId": "75081043992476",
+    "moderation": "Approved",
+    "file": "exports/TOOL/TOOL_Hammer.fbx",
+    "uploadedAt": "2026-11-13 15:20:06"
+  },
+  "FRG_Anvil": {
+    "assetId": "96659450777645",
+    "moderation": "Approved",
+    "file": "exports/FRG/FRG_Anvil.fbx",
+    "uploadedAt": "2026-11-13 15:20:23"
+  },
+  "FRG_Furnace": {
+    "assetId": "113105950855436",
+    "moderation": "Approved",
+    "file": "exports/FRG/FRG_Furnace.fbx",
+    "uploadedAt": "2026-11-13 15:20:31"
+  },
+  "FRG_Workbench": {
+    "assetId": "140483282573461",
+    "moderation": "Approved",
+    "file": "exports/FRG/FRG_Workbench.fbx",
+    "uploadedAt": "2026-11-13 15:20:39"
+  },
+  "VLT_Lvl1": {
+    "assetId": "106939870583400",
+    "moderation": "Approved",
+    "file": "exports/VLT/VLT_Lvl1.fbx",
+    "uploadedAt": "2026-11-13 15:20:47"
+  },
+  "VLT_Lvl2": {
+    "assetId": "122663997539436",
+    "moderation": "Approved",
+    "file": "exports/VLT/VLT_Lvl2.fbx",
+    "uploadedAt": "2026-11-13 15:20:56"
+  },
+  "VLT_Lvl3": {
+    "assetId": "91214278668823",
+    "moderation": "Approved",
+    "file": "exports/VLT/VLT_Lvl3.fbx",
+    "uploadedAt": "2026-11-13 15:21:07"
+  },
+  "FX_GoldPile_M": {
+    "assetId": "137175499101083",
+    "moderation": "Approved",
+    "file": "exports/FX/FX_GoldPile_M.fbx",
+    "uploadedAt": "2026-11-13 15:21:19"
+  },
+  "FX_Coin": {
+    "assetId": "121298861946763",
+    "moderation": "Approved",
+    "file": "exports/FX/FX_Coin.fbx",
+    "uploadedAt": "2026-11-13 15:21:40"
+  },
+  "FX_AlarmBeacon": {
+    "assetId": "126779194978462",
+    "moderation": "Approved",
+    "file": "exports/FX/FX_AlarmBeacon.fbx",
+    "uploadedAt": "2026-11-13 15:21:55"
+  },
+  "FX_Shield_Dome": {
+    "assetId": "86221265493854",
+    "moderation": "Approved",
+    "file": "exports/FX/FX_Shield_Dome.fbx",
+    "uploadedAt": "2026-11-13 15:22:03"
+  },
+  "FX_Shield_Ring": {
+    "assetId": "97662713675448",
+    "moderation": "Approved",
+    "file": "exports/FX/FX_Shield_Ring.fbx",
+    "uploadedAt": "2026-11-13 15:22:14"
+  },
+  "LCK_T1": {
+    "assetId": "128360473506768",
+    "moderation": "Approved",
+    "file": "exports/LCK/LCK_T1.fbx",
+    "uploadedAt": "2026-11-16 22:11:57"
+  },
+  "LCK_T2": {
+    "assetId": "138616342935822",
+    "moderation": "Approved",
+    "file": "exports/LCK/LCK_T2.fbx",
+    "uploadedAt": "2026-11-16 22:12:09"
+  },
+  "LCK_T3": {
+    "assetId": "101483007719476",
+    "moderation": "Approved",
+    "file": "exports/LCK/LCK_T3.fbx",
+    "uploadedAt": "2026-11-16 22:12:23"
+  },
+  "FX_GoldPile_S": {
+    "assetId": "117732374302946",
+    "moderation": "Approved",
+    "file": "exports/FX/FX_GoldPile_S.fbx",
+    "uploadedAt": "2026-11-16 22:12:30"
+  },
+  "FX_GoldPile_L": {
+    "assetId": "113561564051825",
+    "moderation": "Approved",
+    "file": "exports/FX/FX_GoldPile_L.fbx",
+    "uploadedAt": "2026-11-16 22:12:38"
+  },
+  "MIN_Rock_Deco_A": {
+    "assetId": "81546450640288",
+    "moderation": "Approved",
+    "file": "exports/MIN/MIN_Rock_Deco_A.fbx",
+    "uploadedAt": "2026-11-16 22:12:45"
+  },
+  "MIN_Rock_Deco_B": {
+    "assetId": "122282521574210",
+    "moderation": "Approved",
+    "file": "exports/MIN/MIN_Rock_Deco_B.fbx",
+    "uploadedAt": "2026-11-16 22:12:49"
+  },
+  "MIN_Rock_Deco_C": {
+    "assetId": "112706795919221",
+    "moderation": "Approved",
+    "file": "exports/MIN/MIN_Rock_Deco_C.fbx",
+    "uploadedAt": "2026-11-16 22:13:00"
+  },
+  "MIN_Lantern_Post": {
+    "assetId": "120811132828555",
+    "moderation": "Approved",
+    "file": "exports/MIN/MIN_Lantern_Post.fbx",
+    "uploadedAt": "2026-11-16 22:13:07"
+  },
+  "ENV_Plot_VaultPad": {
+    "assetId": "72849496564538",
+    "moderation": "Approved",
+    "file": "exports/ENV/ENV_Plot_VaultPad.fbx",
+    "uploadedAt": "2026-11-16 22:13:22"
+  },
+  "ENV_Plot_Sign": {
+    "assetId": "103835387191153",
+    "moderation": "Approved",
+    "file": "exports/ENV/ENV_Plot_Sign.fbx",
+    "uploadedAt": "2026-11-16 22:13:29"
+  },
+  "ENV_Plot_Fence": {
+    "assetId": "73523909356912",
+    "moderation": "Approved",
+    "file": "exports/ENV/ENV_Plot_Fence.fbx",
+    "uploadedAt": "2026-11-16 22:13:43"
+  },
+  "ENV_SpawnPad": {
+    "assetId": "110141973610434",
+    "moderation": "Approved",
+    "file": "exports/ENV/ENV_SpawnPad.fbx",
+    "uploadedAt": "2026-11-16 22:13:47"
+  },
+  "ENV_Zone_Sign": {
+    "assetId": "98665268395279",
+    "moderation": "Approved",
+    "file": "exports/ENV/ENV_Zone_Sign.fbx",
+    "uploadedAt": "2026-11-16 22:14:01"
+  },
+  "ENV_Leaderboard": {
+    "assetId": "71006254534805",
+    "moderation": "Approved",
+    "file": "exports/ENV/ENV_Leaderboard.fbx",
+    "uploadedAt": "2026-11-16 22:14:12"
+  },
+  "ENV_LB_Topper_Crown": {
+    "assetId": "129507852704390",
+    "moderation": "Approved",
+    "file": "exports/ENV/ENV_LB_Topper_Crown.fbx",
+    "uploadedAt": "2026-11-16 22:14:22"
+  },
+  "ENV_Plot_Base": {
+    "assetId": "89143102266692",
+    "moderation": "Approved",
+    "file": "exports/ENV/ENV_Plot_Base.fbx",
+    "uploadedAt": "2026-11-16 22:14:36"
+  },
+  "ENV_LB_Topper_Mask": {
+    "assetId": "71981959915048",
+    "moderation": "Approved",
+    "file": "exports/ENV/ENV_LB_Topper_Mask.fbx",
+    "uploadedAt": "2026-11-17 21:51:09"
+  },
+  "SKY_Warm_SkyboxFt": {
+    "assetId": "123314045958100",
+    "moderation": "Approved",
+    "file": "exports/SKY/SKY_Warm_SkyboxFt.png",
+    "assetType": "Decal",
+    "uploadedAt": "2026-11-17 22:58:51",
+    "imageId": "85451998923069"
+  },
+  "SKY_Warm_SkyboxBk": {
+    "assetId": "129594805894629",
+    "moderation": "Approved",
+    "file": "exports/SKY/SKY_Warm_SkyboxBk.png",
+    "assetType": "Decal",
+    "uploadedAt": "2026-11-17 22:59:02",
+    "imageId": "109389587477891"
+  },
+  "SKY_Warm_SkyboxLf": {
+    "assetId": "115684709116668",
+    "moderation": "Approved",
+    "file": "exports/SKY/SKY_Warm_SkyboxLf.png",
+    "assetType": "Decal",
+    "uploadedAt": "2026-11-17 22:59:13",
+    "imageId": "89604793519112"
+  },
+  "SKY_Warm_SkyboxRt": {
+    "assetId": "130427110694267",
+    "moderation": "Approved",
+    "file": "exports/SKY/SKY_Warm_SkyboxRt.png",
+    "assetType": "Decal",
+    "uploadedAt": "2026-11-17 22:59:24",
+    "imageId": "102236369866508"
+  },
+  "SKY_Warm_SkyboxUp": {
+    "assetId": "86327869584182",
+    "moderation": "Approved",
+    "file": "exports/SKY/SKY_Warm_SkyboxUp.png",
+    "assetType": "Decal",
+    "uploadedAt": "2026-11-17 22:59:29",
+    "imageId": "83187286802526"
+  },
+  "SKY_Warm_SkyboxDn": {
+    "assetId": "131096963936555",
+    "moderation": "Approved",
+    "file": "exports/SKY/SKY_Warm_SkyboxDn.png",
+    "assetType": "Decal",
+    "uploadedAt": "2026-11-17 22:59:33",
+    "imageId": "117579742944294"
+  },
+  "ENV_Cliff_A": {
+    "assetId": "94193928170713",
+    "moderation": "Approved",
+    "file": "exports/ENV/ENV_Cliff_A.fbx",
+    "assetType": "Model",
+    "uploadedAt": "2026-11-18 01:04:16"
+  },
+  "ENV_Cliff_B": {
+    "assetId": "129322817466455",
+    "moderation": "Approved",
+    "file": "exports/ENV/ENV_Cliff_B.fbx",
+    "assetType": "Model",
+    "uploadedAt": "2026-11-18 01:04:24"
+  },
+  "ENV_Cliff_Corner": {
+    "assetId": "106009304941486",
+    "moderation": "Approved",
+    "file": "exports/ENV/ENV_Cliff_Corner.fbx",
+    "assetType": "Model",
+    "uploadedAt": "2026-11-18 01:04:34"
+  },
+  "ENV_Cliff_Peak": {
+    "assetId": "98411698957306",
+    "moderation": "Approved",
+    "file": "exports/ENV/ENV_Cliff_Peak.fbx",
+    "assetType": "Model",
+    "uploadedAt": "2026-11-18 01:04:57"
+  }
+}

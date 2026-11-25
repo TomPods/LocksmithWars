@@ -1,0 +1,1183 @@
+[
+  {
+    "asset": "CAL_Arrow",
+    "object": "CAL_Arrow",
+    "color": "#FF2A2A",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Calibrage : pointe = avant (-Y Blender), ergot = cote +X, epaisseur = haut."
+  },
+  {
+    "asset": "CAL_Cube_1x1x1",
+    "object": "CAL_Cube_1x1x1",
+    "color": "#D0D0D0",
+    "material": "SmoothPlastic",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Calibrage : doit mesurer 1 x 1 x 1 stud dans Studio."
+  },
+  {
+    "asset": "ENV_Cliff_A",
+    "object": "Grass",
+    "color": "#7A9A4A",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Chapeau d'herbe plat. SmoothPlastic choisi (couleur unie, pas de texture) ; Grass Roblox possible si on veut de la matiere."
+  },
+  {
+    "asset": "ENV_Cliff_A",
+    "object": "Rock",
+    "color": "#6E6A66",
+    "material": "Slate",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Strates sombres + pied evase. CollisionFidelity Hull ou Box conseille (murs invisibles poses par l'integrateur). Pan droit 32 x 14 x 36 (X x Z x Y Roblox), face avant vers -Z Roblox, pied avant a ~6 studs du pivot. Modules a poser cote a cote avec 2 a 4 studs de recouvrement, tournes de quelques degres. Origine = base centree."
+  },
+  {
+    "asset": "ENV_Cliff_A",
+    "object": "Strata",
+    "color": "#8A847C",
+    "material": "Slate",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Strates claires (rythme). CollisionFidelity Hull ou Box."
+  },
+  {
+    "asset": "ENV_Cliff_B",
+    "object": "Grass",
+    "color": "#7A9A4A",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Chapeau d'herbe : plat a 42 cote +X Roblox, rampe puis palier a ~33 cote -X Roblox. SmoothPlastic (couleur unie, valide pour toute la famille)."
+  },
+  {
+    "asset": "ENV_Cliff_B",
+    "object": "Rock",
+    "color": "#6E6A66",
+    "material": "Slate",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Strates sombres + pied evase. CollisionFidelity Hull ou Box conseille (murs invisibles poses par l'integrateur). Pan droit ~24 x 14 x 42 (X x Z x Y Roblox), 5 strates, face avant vers -Z Roblox. Epaulement : le sommet descend a ~33 studs du cote -X Roblox (+X Blender). Origine = base centree."
+  },
+  {
+    "asset": "ENV_Cliff_B",
+    "object": "Strata",
+    "color": "#8A847C",
+    "material": "Slate",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Strates claires (rythme). CollisionFidelity Hull ou Box conseille (murs invisibles poses par l'integrateur)."
+  },
+  {
+    "asset": "ENV_Cliff_Corner",
+    "object": "Grass",
+    "color": "#7A9A4A",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Chapeau d'herbe plat. SmoothPlastic (couleur unie, valide pour toute la famille)."
+  },
+  {
+    "asset": "ENV_Cliff_Corner",
+    "object": "Rock",
+    "color": "#6E6A66",
+    "material": "Slate",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Strates sombres + pied evase. CollisionFidelity Hull ou Box conseille (murs invisibles poses par l'integrateur). Coin rentrant 90 deg, 38 de haut. Face 1 regarde -Z Roblox (-Y Blender), face 2 regarde -X Roblox (+X Blender) : l'interieur de la carte est le quart -X / -Z Roblox vu depuis l'angle. Origine = centre de l'emprise au sol (angle interieur au pied situe vers +X/-Y Blender, a ~1 stud du pivot)."
+  },
+  {
+    "asset": "ENV_Cliff_Corner",
+    "object": "Strata",
+    "color": "#8A847C",
+    "material": "Slate",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Strates claires (rythme). CollisionFidelity Hull ou Box conseille (murs invisibles poses par l'integrateur)."
+  },
+  {
+    "asset": "ENV_Cliff_Peak",
+    "object": "Grass",
+    "color": "#7A9A4A",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Deux calottes d'herbe plates (60 et 36). SmoothPlastic (couleur unie, valide pour toute la famille)."
+  },
+  {
+    "asset": "ENV_Cliff_Peak",
+    "object": "Rock",
+    "color": "#6E6A66",
+    "material": "Slate",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Strates sombres + pied evase. Hors de portee des joueurs : aucune collision. Pic de fond ~33 x 27 x 60 (sommet principal + epaulement de 36), a poser derriere les falaises. Deux massifs fermes qui s'interpenetrent. Origine = base centree."
+  },
+  {
+    "asset": "ENV_Cliff_Peak",
+    "object": "Strata",
+    "color": "#8A847C",
+    "material": "Slate",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Strates claires (rythme). Hors de portee des joueurs : aucune collision."
+  },
+  {
+    "asset": "ENV_LB_Topper_Crown",
+    "object": "Crown",
+    "color": "#F2C12E",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Couronne ovale 3 x 2 x 1 (L x H x P), 8 pointes. A poser au sommet du classement des plus riches (Y = 10 du cadre). Origine = base centree."
+  },
+  {
+    "asset": "ENV_LB_Topper_Mask",
+    "object": "Mask",
+    "color": "#2A2A2A",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Loup de voleur 3 x 1,5 x 0,5 (L x H x P), debout face a -Z Roblox, yeux traversants. A poser au sommet du classement des meilleurs voleurs. Origine = base centree."
+  },
+  {
+    "asset": "ENV_Leaderboard",
+    "object": "Frame",
+    "color": "#5A5F66",
+    "material": "Metal",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "2 montants 1 x 1 x 10 + traverses haute et basse. Dessus plan a Y = 10 (pose des ornements ENV_LB_Topper_*). Origine = base centree. CollisionFidelity PreciseConvexDecomposition (sinon le vide sous l'écran est bouché)."
+  },
+  {
+    "asset": "ENV_Leaderboard",
+    "object": "Screen",
+    "color": "#1E1E1E",
+    "material": "SmoothPlastic",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Ecran 10 x 5,9 x 0,3 sans biseau. Face avant plate et verticale (-Z Roblox) a Z = -0,3 (en retrait de 0,2 du cadre), centre a Y = 6,25. Meme origine que Frame."
+  },
+  {
+    "asset": "ENV_Plot_Base",
+    "object": "Base",
+    "color": "#737A84",
+    "material": "Concrete",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Dalle 30 x 30 x 1, dessus plan a Y = 1. CollisionFidelity Box. Origine = base centree."
+  },
+  {
+    "asset": "ENV_Plot_Base",
+    "object": "Border",
+    "color": "#3B3F45",
+    "material": "Concrete",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Bordure de 1 stud (32 exterieur, 30 interieur), dessus a Y = 1 au meme niveau que Base, chanfrein exterieur 0,3. CollisionFidelity Box ou Hull (le dessus est plan). Origine = base centree."
+  },
+  {
+    "asset": "ENV_Plot_Fence",
+    "object": "Fence",
+    "color": "#8B5A2B",
+    "material": "WoodPlanks",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Module 8 de long. Poteaux a X = ±2, lisses a section constante coupees net a X = ±4 : bout a bout, les lisses se prolongent et les poteaux restent espaces de 4. Symetrique gauche/droite et avant/arriere. CollisionFidelity Box. Origine = base centree."
+  },
+  {
+    "asset": "ENV_Plot_Sign",
+    "object": "Board",
+    "color": "#8B5A2B",
+    "material": "WoodPlanks",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Pave 3,8 x 2,5 x 0,3 sans biseau. Face avant plate et verticale (cote -Z Roblox) a Z = -0,2, centre a Y = 5,35. Meme origine que Frame (base centree)."
+  },
+  {
+    "asset": "ENV_Plot_Sign",
+    "object": "Frame",
+    "color": "#5C3A1E",
+    "material": "Wood",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "2 poteaux 0,6 x 0,6 x 7 + 2 traverses. Origine = base centree."
+  },
+  {
+    "asset": "ENV_Plot_VaultPad",
+    "object": "Pad",
+    "color": "#3B3F45",
+    "material": "DiamondPlate",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Dalle 14 x 14, dessus plan a Y = 0,4 (le coffre se pose dessus). Origine = base centree."
+  },
+  {
+    "asset": "ENV_Plot_VaultPad",
+    "object": "Rivets",
+    "color": "#C9A14A",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "4 rivets octogonaux Ø 1,2 centres a (±6, ±6), depassent la dalle de 0,15. Meme origine que Pad."
+  },
+  {
+    "asset": "ENV_SpawnPad",
+    "object": "Base",
+    "color": "#5A5F66",
+    "material": "Metal",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Disque 12 cotes, 10 entre plats, dessus plan a Y = 0,46. Origine = base centree."
+  },
+  {
+    "asset": "ENV_SpawnPad",
+    "object": "Ring",
+    "color": "#4FC3FF",
+    "material": "Neon",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Anneau 12 cotes (rayons 3,3 a 4,1), depasse le dessus de Base de 0,04 (dessus a Y = 0,5). Meme origine que Base."
+  },
+  {
+    "asset": "ENV_Zone_Sign",
+    "object": "Board",
+    "color": "#8B5A2B",
+    "material": "WoodPlanks",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Pave 6,4 x 1,7 x 0,4 sans biseau. Face avant plate et verticale (-Z Roblox) a Z = -0,2, centre a Y = 7,75. Meme origine que Frame."
+  },
+  {
+    "asset": "ENV_Zone_Sign",
+    "object": "Frame",
+    "color": "#5C3A1E",
+    "material": "Wood",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "2 poteaux 0,8 x 0,6 x 9 + 2 traverses. Passage libre 6,4 de large x 6,6 de haut. CollisionFidelity PreciseConvexDecomposition (sinon le passage est bouche). Origine = base centree."
+  },
+  {
+    "asset": "FRG_Anvil",
+    "object": "Band",
+    "color": "#5A5F66",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Cerclage de fer du billot. Origine au sol, centre."
+  },
+  {
+    "asset": "FRG_Anvil",
+    "object": "Body",
+    "color": "#2E2E33",
+    "material": "Metal",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Enclume. Dessus de table a Y Roblox = 3,0 exactement ; table plane 2,4 x 1,24 centree sur l'origine. Corne vers +X Roblox (-X Blender, gauche du joueur place devant), talon carre a l'oppose. Origine au sol, centre du billot."
+  },
+  {
+    "asset": "FRG_Anvil",
+    "object": "IngotPoint",
+    "color": "#FF00FF",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "marker",
+    "notes": "Centre de la table, (0, 3.0, 0) Roblox : base du lingot ING_Bar."
+  },
+  {
+    "asset": "FRG_Anvil",
+    "object": "Stump",
+    "color": "#8B5A2B",
+    "material": "WoodPlanks",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Billot octogonal, hauteur 1,5. Origine au sol, centre."
+  },
+  {
+    "asset": "FRG_Furnace",
+    "object": "Base",
+    "color": "#5B5650",
+    "material": "Slate",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Socle de pierre 8 x 7,6 x 1 ; son dessus (Y Roblox = 1,0) est la sole de la bouche. Origine au sol, centre."
+  },
+  {
+    "asset": "FRG_Furnace",
+    "object": "Body",
+    "color": "#6B3A2A",
+    "material": "Brick",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Corps en briques, bouche en arche (4 x 2,8) face a -Z Roblox, claveaux en relief. Origine au sol, centre du socle."
+  },
+  {
+    "asset": "FRG_Furnace",
+    "object": "Embers",
+    "color": "#FFB347",
+    "material": "Neon",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "3 braises posees sur la sole, dans la bouche. Origine au sol."
+  },
+  {
+    "asset": "FRG_Furnace",
+    "object": "Glow",
+    "color": "#FF7A1A",
+    "material": "Neon",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Dalle (epaisseur 0,2) au fond de la bouche, face avant a Z Roblox = -1,8, normale vers l'avant. A rendre lumineux (PointLight orange). Origine au sol, centre du socle."
+  },
+  {
+    "asset": "FRG_Furnace",
+    "object": "Hood",
+    "color": "#3B3F45",
+    "material": "Metal",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Hotte et cheminee, sommet a Y Roblox = 10. Origine au sol."
+  },
+  {
+    "asset": "FRG_Workbench",
+    "object": "DisplayPoint",
+    "color": "#FF00FF",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "marker",
+    "notes": "Centre du plateau, exactement sur le dessus : (0, 3.5, 0) Roblox. Zone libre 3,1 x 3,7 centrée sur le repère."
+  },
+  {
+    "asset": "FRG_Workbench",
+    "object": "Legs",
+    "color": "#5C3A1E",
+    "material": "Wood",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "4 pieds, traverses basses et ceintures. Origine au sol."
+  },
+  {
+    "asset": "FRG_Workbench",
+    "object": "Props",
+    "color": "#C9A14A",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Laiton : corps du cadenas en cours, boite de goupilles. Origine au sol, centre."
+  },
+  {
+    "asset": "FRG_Workbench",
+    "object": "Props_Steel",
+    "color": "#5A5F66",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Acier : anse et entree de cle du cadenas, goupilles, pince. Origine au sol, centre."
+  },
+  {
+    "asset": "FRG_Workbench",
+    "object": "Top",
+    "color": "#8B5A2B",
+    "material": "WoodPlanks",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Plateau 8 x 4, epaisseur 0,5, dessus a Y Roblox = 3,5. Origine au sol, centre."
+  },
+  {
+    "asset": "FRG_Workbench",
+    "object": "Vise",
+    "color": "#5A5F66",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Etau au coin avant droit dans Blender (+X, -Y), donc cote -X Roblox, bord avant (-Z). Origine au sol, centre."
+  },
+  {
+    "asset": "FX_AlarmBeacon",
+    "object": "Base",
+    "color": "#3B3F45",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Socle 1,2 de diametre x 0,4, chanfreine. Origine = base centree, a poser sur BeaconPoint. Le code actuel nomme le gyrophare `Beacon` : garder ce nom pour le modele clone."
+  },
+  {
+    "asset": "FX_AlarmBeacon",
+    "object": "Dome",
+    "color": "#FF2A2A",
+    "material": "Glass",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Dome de verre rouge 1 de diametre x 0,9 (jupe droite 0,4 + demi-sphere), pose sur le socle (z 0,4 a 1,3). Transparency 0,3. Origine = base centree du gyrophare (0, 0, 0)."
+  },
+  {
+    "asset": "FX_AlarmBeacon",
+    "object": "Reflector",
+    "color": "#FF2A2A",
+    "material": "Neon",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "Miroir demi-cylindrique + ampoule + pied, dans le dome. Tourne en boucle autour de l'axe vertical (Y Roblox). Origine sur l'axe central : (0, 0, 0,75) Blender = (0, 0,75, 0) Roblox. Rayon balaye 0,30 < rayon du dome 0,5. Miroir ouvert vers l'avant (-Z Roblox) au repos. Porte la SpotLight et la PointLight ajoutees dans Studio."
+  },
+  {
+    "asset": "FX_Coin",
+    "object": "Coin",
+    "color": "#F2C12E",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "Piece lancee vers le voleur. Origine = centre de la piece. Piece debout : axe de la piece = Y Blender = Z Roblox (faces vers l'avant -Z et l'arriere +Z), diametre dans le plan X/Y Roblox. Trou de serrure en relief sur les deux faces, pied vers le bas (-Y Roblox)."
+  },
+  {
+    "asset": "FX_GoldPile_L",
+    "object": "Pile",
+    "color": "#F2C12E",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Tas d'or (monticule + pieces + lingots fusionnes). Origine = base centree, a poser sur GoldPoint. Avant = -Y Blender (-Z Roblox)."
+  },
+  {
+    "asset": "FX_GoldPile_M",
+    "object": "Pile",
+    "color": "#F2C12E",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Tas d'or (monticule + pieces + lingots fusionnes). Origine = base centree, a poser sur GoldPoint. Avant = -Y Blender (-Z Roblox)."
+  },
+  {
+    "asset": "FX_GoldPile_S",
+    "object": "Pile",
+    "color": "#F2C12E",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Tas d'or (monticule + pieces + lingots fusionnes). Origine = base centree, a poser sur GoldPoint. Avant = -Y Blender (-Z Roblox)."
+  },
+  {
+    "asset": "FX_Shield_Dome",
+    "object": "Dome",
+    "color": "#4FC3FF",
+    "material": "ForceField",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Champ de force : demi-icosphere facettee 10 x 10 x 5, sans fond, normales vers l'exterieur. Origine = base centree. CastShadow false. Redimensionne par le jeu selon le coffre (10 / 14 / 20). Le code actuel nomme cette piece `Shield` une fois clonee."
+  },
+  {
+    "asset": "FX_Shield_Ring",
+    "object": "Ring",
+    "color": "#4FC3FF",
+    "material": "Neon",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Anneau au sol sous le dome : diametre exterieur 10, bande 0,45, epaisseur 0,1, 20 cotes alignes sur le bord de FX_Shield_Dome. Sans dessous. Origine = base centree. A redimensionner avec le dome."
+  },
+  {
+    "asset": "ING_Bar",
+    "object": "Bar",
+    "color": "#D0D0D0",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "tint",
+    "notes": "Lingot recolore selon le metal ; etat chauffe = interpolation de couleur vers #FF7A1A. Longueur selon X. Origine = base centree."
+  },
+  {
+    "asset": "LCK_T1",
+    "object": "Keyhole",
+    "color": "#1E1E1E",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Entree de cle sombre, depasse la face avant du corps de 0,04. Meme origine que Tint."
+  },
+  {
+    "asset": "LCK_T1",
+    "object": "Shackle",
+    "color": "#5A5F66",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Anse acier (fer diam. 0,26, largeur 0,99), sommet a Y = +1,25 Roblox au-dessus de l'origine ; branches enfoncees de 0,4 dans le corps (peut se soulever de 0,3 a l'ouverture sans se detacher). Meme origine que Tint."
+  },
+  {
+    "asset": "LCK_T1",
+    "object": "Tint",
+    "color": "#D0D0D0",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "tint",
+    "notes": "Corps du cadenas 1,4 x 1,2 x 0,6 + sangle en relief (1,5 de large, avant a 0,66). Recolore selon le metal. Origine = centre de la face arriere du corps (a poser sur LockSocket), avant vers -Z Roblox. Facade totale avec l'anse : 1,5 x 1,85 (de Y = -0,60 a +1,25 Roblox), dans la zone libre 2,6 x 2,6."
+  },
+  {
+    "asset": "LCK_T2",
+    "object": "Cylinder",
+    "color": "#5A5F66",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "Barillet acier diam. 0,8 (12 cotes), avant a 0,47. Peut tourner de 90 deg a l'ouverture autour de l'axe Z Roblox passant par son origine. Origine = centre de la face arriere de la serrure (son axe passe par LockSocket)."
+  },
+  {
+    "asset": "LCK_T2",
+    "object": "Keyway",
+    "color": "#1E1E1E",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "Fente de cle sombre 0,16 x 0,56, depasse le barillet de 0,03. Tourne AVEC Cylinder (meme origine, meme axe)."
+  },
+  {
+    "asset": "LCK_T2",
+    "object": "Tint",
+    "color": "#D0D0D0",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "tint",
+    "notes": "Plaque 1,8 x 2,2 x 0,3 a coins coupes. Recoloree selon le metal. Origine = centre de la face arriere (a poser sur LockSocket), avant vers -Z Roblox."
+  },
+  {
+    "asset": "LCK_T2",
+    "object": "Trim",
+    "color": "#C9A14A",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Laiton : rosace de barillet (diam. 1,12 + patte vers le bas) et 4 vis 6 pans aux coins, avant a 0,38. Dos ouvert (contre la plaque). Meme origine que Tint."
+  },
+  {
+    "asset": "LCK_T3",
+    "object": "Bezel",
+    "color": "#3B3F45",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Acier sombre : lunette diam. 1,72 sous le cadran + 4 boulons 6 pans aux coins. Dos ouvert (contre la plaque). Meme origine que Tint."
+  },
+  {
+    "asset": "LCK_T3",
+    "object": "Dial",
+    "color": "#5A5F66",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "Cadran diam. 1,24 a 12 crans, bouton central et repere en relief, avant a 0,62. Tourne pendant le crochetage autour de l'axe Z Roblox passant par son origine. Origine = son axe, dans le plan arriere : (0, +0,24, 0) Roblox par rapport a Tint."
+  },
+  {
+    "asset": "LCK_T3",
+    "object": "Index",
+    "color": "#F2C12E",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Or, fixe : repere (triangle pointe en bas) au-dessus du cadran + 11 graduations triangulaires sur la lunette, tous les 30 deg. Meme origine que Tint."
+  },
+  {
+    "asset": "LCK_T3",
+    "object": "Lever",
+    "color": "#5A5F66",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "Levier acier (moyeu + bras effile de 1,03), avant a 0,48. Peut pivoter a l'ouverture autour de l'axe Z Roblox passant par son origine. Origine = axe du moyeu, dans le plan arriere : (+0,45, -0,88, 0) Roblox par rapport a Tint (X Blender -0,45 = X Roblox +0,45)."
+  },
+  {
+    "asset": "LCK_T3",
+    "object": "Tint",
+    "color": "#D0D0D0",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "tint",
+    "notes": "Plaque 2,4 x 2,4 x 0,3 a grands coins coupes. Recoloree selon le metal. Origine = centre de la face arriere (a poser sur LockSocket), avant vers -Z Roblox."
+  },
+  {
+    "asset": "MIN_Lantern_Post",
+    "object": "Light",
+    "color": "#FFD966",
+    "material": "Neon",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Bloc lumineux evase, centre a (0, 4.9, 0) Roblox : y ajouter le PointLight. Meme origine que Post (base centree)."
+  },
+  {
+    "asset": "MIN_Lantern_Post",
+    "object": "Post",
+    "color": "#3B3F45",
+    "material": "Metal",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Socle, fut, cage et toit de la lanterne. Origine = base centree."
+  },
+  {
+    "asset": "MIN_Rock_Deco_A",
+    "object": "Rock",
+    "color": "#6E6A66",
+    "material": "Slate",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Rocher decoratif Ø 3 (bloc taille incline + petite roche). CollisionFidelity Hull. Origine = base centree."
+  },
+  {
+    "asset": "MIN_Rock_Deco_B",
+    "object": "Rock",
+    "color": "#6E6A66",
+    "material": "Slate",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Rocher decoratif Ø 5 (trois dalles taillees appuyees + petite roche). CollisionFidelity Hull. Origine = base centree."
+  },
+  {
+    "asset": "MIN_Rock_Deco_C",
+    "object": "Rock",
+    "color": "#6E6A66",
+    "material": "Slate",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Rocher decoratif Ø 8 (affleurement en gradins + bloc dominant). CollisionFidelity Hull (ou PreciseConvexDecomposition si l'on veut monter sur les gradins). Origine = base centree."
+  },
+  {
+    "asset": "ORE_Chunk",
+    "object": "Chunk",
+    "color": "#D0D0D0",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "tint",
+    "notes": "Eclat recolore selon le metal (materiau de la famille : F1-F2 Metal, F3 Glass, F4 Neon). Origine = centre."
+  },
+  {
+    "asset": "ORE_F1",
+    "object": "Crystals",
+    "color": "#D0D0D0",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "tint",
+    "notes": "Etat intact. Recolore selon le metal."
+  },
+  {
+    "asset": "ORE_F1",
+    "object": "Crystals_Broken",
+    "color": "#D0D0D0",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "tint",
+    "notes": "Etat fissure (50 % PV), remplace Crystals. Meme origine."
+  },
+  {
+    "asset": "ORE_F1",
+    "object": "Rock",
+    "color": "#6E6A66",
+    "material": "Slate",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Roche fixe. CollisionFidelity Hull."
+  },
+  {
+    "asset": "ORE_F2",
+    "object": "Crystals",
+    "color": "#D0D0D0",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "tint",
+    "notes": "Etat intact. Recolore selon le metal."
+  },
+  {
+    "asset": "ORE_F2",
+    "object": "Crystals_Broken",
+    "color": "#D0D0D0",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "tint",
+    "notes": "Etat fissure (50 % PV), remplace Crystals. Meme origine."
+  },
+  {
+    "asset": "ORE_F2",
+    "object": "Rock",
+    "color": "#6E6A66",
+    "material": "Slate",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Roche fixe. CollisionFidelity Hull."
+  },
+  {
+    "asset": "ORE_F3",
+    "object": "Crystals",
+    "color": "#D0D0D0",
+    "material": "Glass",
+    "canCollide": false,
+    "role": "tint",
+    "notes": "Etat intact. Recolore selon le metal."
+  },
+  {
+    "asset": "ORE_F3",
+    "object": "Crystals_Broken",
+    "color": "#D0D0D0",
+    "material": "Glass",
+    "canCollide": false,
+    "role": "tint",
+    "notes": "Etat fissure (50 % PV), remplace Crystals. Meme origine."
+  },
+  {
+    "asset": "ORE_F3",
+    "object": "Rock",
+    "color": "#6E6A66",
+    "material": "Slate",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Roche fixe. CollisionFidelity Hull."
+  },
+  {
+    "asset": "ORE_F4",
+    "object": "Core",
+    "color": "#D0D0D0",
+    "material": "Neon",
+    "canCollide": false,
+    "role": "tint",
+    "notes": "Noyau flottant, piece separee ; flotte ±0,3 stud, 2 s. Pivot = centre geometrique, origine Blender (0, 0, 4.5) = Roblox (0, 4.5, 0) par rapport a la base de Rock."
+  },
+  {
+    "asset": "ORE_F4",
+    "object": "Crystals",
+    "color": "#D0D0D0",
+    "material": "Neon",
+    "canCollide": false,
+    "role": "tint",
+    "notes": "Etat intact. Recolore selon le metal."
+  },
+  {
+    "asset": "ORE_F4",
+    "object": "Crystals_Broken",
+    "color": "#D0D0D0",
+    "material": "Neon",
+    "canCollide": false,
+    "role": "tint",
+    "notes": "Etat fissure (50 % PV), remplace Crystals. Meme origine."
+  },
+  {
+    "asset": "ORE_F4",
+    "object": "Rock",
+    "color": "#6E6A66",
+    "material": "Slate",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Roche fixe. CollisionFidelity Hull."
+  },
+  {
+    "asset": "ORE_F4",
+    "object": "Shards",
+    "color": "#D0D0D0",
+    "material": "Neon",
+    "canCollide": false,
+    "role": "tint",
+    "notes": "4 eclats en anneau Ø 4, piece separee ; tourne 4 s/tour autour de l'axe vertical. Pivot = centre de l'anneau sur l'axe du noyau, origine Blender (0, 0, 4.5) = Roblox (0, 4.5, 0) par rapport a la base de Rock."
+  },
+  {
+    "asset": "ORE_Rubble",
+    "object": "Rubble",
+    "color": "#6E6A66",
+    "material": "Slate",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Etat epuise (0 PV), remplace tout le gisement. Partage par les 4 familles. Origine = base centree."
+  },
+  {
+    "asset": "SKY_Warm",
+    "object": "Sky",
+    "category": "SKY",
+    "color": "#F6D38C",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "fixed",
+    "files": {
+      "SkyboxBk": "exports/SKY/SKY_Warm_SkyboxBk.png",
+      "SkyboxDn": "exports/SKY/SKY_Warm_SkyboxDn.png",
+      "SkyboxFt": "exports/SKY/SKY_Warm_SkyboxFt.png",
+      "SkyboxLf": "exports/SKY/SKY_Warm_SkyboxLf.png",
+      "SkyboxRt": "exports/SKY/SKY_Warm_SkyboxRt.png",
+      "SkyboxUp": "exports/SKY/SKY_Warm_SkyboxUp.png"
+    },
+    "size": "6 x 1024x1024 PNG RGB 8 bits",
+    "origin": "peint proceduralement dans Blender, aucun asset externe ni generateur d'images",
+    "notes": "Ciel 16h30. Orientation (repere Roblox, vise -> haut image) : Ft -Z/+Y, Bk +Z/+Y, Lf -X/+Y, Rt +X/+Y, Up +Y/haut=+Z, Dn -Y/haut=-Z. Pas de disque solaire (SunTextureId Roblox) ; lueur centree sur GetSunDirection (-0.847,0.351,-0.399), face Lf cote Ft. Material/canCollide sans objet (texture). Source : sky_warm.blend, scripts/sky.py."
+  },
+  {
+    "asset": "TOOL_Hammer",
+    "object": "Handle",
+    "color": "#8A5A33",
+    "material": "Wood",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Manche, longueur 2,2 le long de Z Roblox (Y Blender), origine au centre du manche. Tete a l'avant (-Z Roblox). Prise prevue a 0,8 stud en arriere du centre (C1 = CFrame.new(0, 0, 0.8))."
+  },
+  {
+    "asset": "TOOL_Hammer",
+    "object": "Head",
+    "color": "#9AA0A8",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Tete de forgeron a deux faces de frappe (haut/bas), a souder sur Handle. Meme origine que Handle (centre du manche)."
+  },
+  {
+    "asset": "TOOL_Pickaxe",
+    "object": "Handle",
+    "color": "#8A5A33",
+    "material": "Wood",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Manche, longueur 3,6 le long de Z Roblox (Y Blender), origine au centre du manche. Tete a l'avant (-Z Roblox). Prise prevue a 1,2 stud en arriere du centre (Tool.Grip = CFrame.new(0, 0, 1.2))."
+  },
+  {
+    "asset": "TOOL_Pickaxe",
+    "object": "Head",
+    "color": "#9AA0A8",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Fer a deux pointes (haut/bas, envergure 3), a souder sur Handle. Meme origine que Handle (centre du manche)."
+  },
+  {
+    "asset": "VLT_Lvl1",
+    "object": "Bands",
+    "color": "#5A5F66",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Plinthe, cerclage haut, sangle en U (cotes + dessus) et partie fixe des deux charnieres (cote -X Roblox). Depasse l'encombrement de 0,1 au plus. Origine au sol."
+  },
+  {
+    "asset": "VLT_Lvl1",
+    "object": "BeaconPoint",
+    "color": "#FF00FF",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "marker",
+    "notes": "Racine du coffre. (0, 5.1, 0) Roblox."
+  },
+  {
+    "asset": "VLT_Lvl1",
+    "object": "Body",
+    "color": "#8B5A2B",
+    "material": "WoodPlanks",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Caisse 5 x 5 x 5, base centree, face avant a Z Roblox = -2,5. Ouverture 3,14 x 3,14 derriere la porte, cavite profonde de 4,0. Collision : utiliser une decomposition fidele ou un pave 5 x 5 x 5 selon le besoin du jeu (la cavite est creuse)."
+  },
+  {
+    "asset": "VLT_Lvl1",
+    "object": "Corners",
+    "color": "#3B3F45",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "8 coins renforces, depassent de 0,15 (0,12 au-dessus). Origine au sol."
+  },
+  {
+    "asset": "VLT_Lvl1",
+    "object": "Door",
+    "color": "#737A84",
+    "material": "DiamondPlate",
+    "canCollide": true,
+    "role": "moving",
+    "notes": "Tole striee 3,6 x 3,6 x 0,4, face avant plane a Z Roblox = -2,9. Enfant du groupe DoorAssembly ; origine au pied de l'axe de charniere (-1.8, 0.7, -2.7) Roblox."
+  },
+  {
+    "asset": "VLT_Lvl1",
+    "object": "DoorAssembly",
+    "color": "#000000",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "GROUPE (noeud vide du FBX -> Model Roblox), pas une piece : ne lui appliquer ni couleur ni materiau. A l'identite. Contient Door et les pieces mobiles ; pivote autour de son bord -X Roblox (+X Blender)."
+  },
+  {
+    "asset": "VLT_Lvl1",
+    "object": "DoorFrame",
+    "color": "#5A5F66",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "U de fer en relief de 0,14 : deux montants dans les marges laterales et traverse basse, hors zone libre. Enfant du groupe DoorAssembly ; origine au pied de l'axe de charniere (-1.8, 0.7, -2.7) Roblox."
+  },
+  {
+    "asset": "VLT_Lvl1",
+    "object": "DoorStuds",
+    "color": "#C9A14A",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "6 rivets laiton sur les montants. Enfant du groupe DoorAssembly ; origine au pied de l'axe de charniere (-1.8, 0.7, -2.7) Roblox."
+  },
+  {
+    "asset": "VLT_Lvl1",
+    "object": "GoldPoint",
+    "color": "#FF00FF",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "marker",
+    "notes": "Racine du coffre. (0, 0.95, -0.5) Roblox : sol de la cavite, centre en X. Le tas d'or 2 x 2 x 0,6 tient dans la cavite (3,1 x 3,98 au sol, 3,1 de haut)."
+  },
+  {
+    "asset": "VLT_Lvl1",
+    "object": "Handle",
+    "color": "#C9A14A",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "Levier a pommeau laiton dans la bande basse de la porte (sous la zone libre). Enfant du groupe DoorAssembly ; origine au pied de l'axe de charniere (-1.8, 0.7, -2.7) Roblox."
+  },
+  {
+    "asset": "VLT_Lvl1",
+    "object": "Interior",
+    "color": "#2A2A2A",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Parois de la cavite (sol, plafond, cotes, fond), normales vers l'interieur, a 0,02 des faces du Body. Cavite visible 3,1 x 3,1 x 3,98 ; sol a Y Roblox = 0,95."
+  },
+  {
+    "asset": "VLT_Lvl1",
+    "object": "LockSocket",
+    "color": "#FF00FF",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "marker",
+    "notes": "Racine du coffre. (0, 3.5, -2.9) Roblox : face avant de la porte, a 3,5 du sol. Zone libre 2,6 x 2,6 autour (face de porte plane, aucun relief)."
+  },
+  {
+    "asset": "VLT_Lvl2",
+    "object": "Base",
+    "color": "#1F2E26",
+    "material": "Metal",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Socle 7,6 x 7,6 x 1. Origine au sol, centre."
+  },
+  {
+    "asset": "VLT_Lvl2",
+    "object": "BeaconPoint",
+    "color": "#FF00FF",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "marker",
+    "notes": "Racine du coffre. (0, 9, 0) Roblox."
+  },
+  {
+    "asset": "VLT_Lvl2",
+    "object": "Body",
+    "color": "#2F4A3A",
+    "material": "Metal",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Fut 7,1 x 7,05 (facade a Z Roblox = -3,5) + corniche 7,6 x 7,6, sommet a Y = 9. Panneaux en relief sur les cotes et le dos. Ouverture 4,24 x 5,74 derriere la porte, cavite creuse profonde de 6,4. Origine au sol, centre."
+  },
+  {
+    "asset": "VLT_Lvl2",
+    "object": "Door",
+    "color": "#3A5A47",
+    "material": "Metal",
+    "canCollide": true,
+    "role": "moving",
+    "notes": "Porte 5 x 6,6 x 0,6, face avant plane a Z Roblox = -4,1. Enfant du groupe DoorAssembly ; origine au pied de l'axe de charniere (-2.5, 1.3, -3.8) Roblox."
+  },
+  {
+    "asset": "VLT_Lvl2",
+    "object": "DoorAssembly",
+    "color": "#000000",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "GROUPE (noeud vide du FBX -> Model Roblox), pas une piece : ne lui appliquer ni couleur ni materiau. A l'identite. Contient Door et les pieces mobiles ; pivote autour de son bord -X Roblox (+X Blender)."
+  },
+  {
+    "asset": "VLT_Lvl2",
+    "object": "DoorFrame",
+    "color": "#C9A14A",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "Cadre laiton (relief 0,12) et deux pentures cote charniere, hors zone libre. Enfant du groupe DoorAssembly ; origine au pied de l'axe de charniere (-2.5, 1.3, -3.8) Roblox."
+  },
+  {
+    "asset": "VLT_Lvl2",
+    "object": "GoldPoint",
+    "color": "#FF00FF",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "marker",
+    "notes": "Racine du coffre. (0, 1.75, -0.3) Roblox : sol de la cavite, centre en X. Le tas d'or 3 x 3 x 1,2 tient dans la cavite (4,2 x 6,38 au sol, 5,7 de haut)."
+  },
+  {
+    "asset": "VLT_Lvl2",
+    "object": "Handle",
+    "color": "#C9A14A",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "Poignee de tirage verticale dans la marge laterale opposee aux charnieres. Enfant du groupe DoorAssembly ; origine au pied de l'axe de charniere (-2.5, 1.3, -3.8) Roblox."
+  },
+  {
+    "asset": "VLT_Lvl2",
+    "object": "Interior",
+    "color": "#2A2A2A",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Parois de la cavite, normales vers l'interieur, a 0,02 du Body. Cavite visible 4,2 x 5,7 x 6,38 ; sol a Y Roblox = 1,75."
+  },
+  {
+    "asset": "VLT_Lvl2",
+    "object": "LockSocket",
+    "color": "#FF00FF",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "marker",
+    "notes": "Racine du coffre. (0, 3.5, -4.1) Roblox : face avant de la porte, a 3,5 du sol. Zone libre 2,6 x 2,6 autour (face de porte plane, aucun relief)."
+  },
+  {
+    "asset": "VLT_Lvl2",
+    "object": "Trim",
+    "color": "#C9A14A",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Laiton fixe : moulures basse et haute autour du fut, partie fixe des deux charnieres (cote -X Roblox), plaque sur la corniche. Origine au sol, centre."
+  },
+  {
+    "asset": "VLT_Lvl2",
+    "object": "Wheel",
+    "color": "#C9A14A",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "Volant a 4 branches et 4 poignees, entierement au-dessus de la zone libre. Enfant du groupe DoorAssembly ; origine SUR SON AXE (-0, 6.3, -4.1) Roblox, axe de rotation = Z Roblox."
+  },
+  {
+    "asset": "VLT_Lvl3",
+    "object": "BeaconPoint",
+    "color": "#FF00FF",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "marker",
+    "notes": "Racine du coffre. (0, 13.1, 0) Roblox."
+  },
+  {
+    "asset": "VLT_Lvl3",
+    "object": "Body",
+    "color": "#3B3F45",
+    "material": "DiamondPlate",
+    "canCollide": true,
+    "role": "fixed",
+    "notes": "Fut 11,4 x 7,7 (facade a Z Roblox = -4,0), socle et corniche 12 x 8,12 (debord avant 0,12), sommet a Y = 13. Ouverture ronde de rayon 4,12 centree a Y = 6,5, seuil plat a Y = 2,98, cavite creuse profonde de 7. Origine au sol, centre."
+  },
+  {
+    "asset": "VLT_Lvl3",
+    "object": "Door",
+    "color": "#4C525A",
+    "material": "Metal",
+    "canCollide": true,
+    "role": "moving",
+    "notes": "Disque de diametre 9 (24 cotes), epaisseur 1, face avant a Z Roblox = -5,0. Enfant du groupe DoorAssembly ; origine au pied de la tangente de charniere (-4.5, 2, -4.5) Roblox."
+  },
+  {
+    "asset": "VLT_Lvl3",
+    "object": "DoorAssembly",
+    "color": "#000000",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "GROUPE (noeud vide du FBX -> Model Roblox), pas une piece : ne lui appliquer ni couleur ni materiau. A l'identite. Contient Door et les pieces mobiles ; pivote autour de son bord -X Roblox (+X Blender)."
+  },
+  {
+    "asset": "VLT_Lvl3",
+    "object": "DoorFrame",
+    "color": "#5A5F66",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "Deux anneaux concentriques (relief 0,2), platine de serrure 2,9 x 2,95 dont la face avant plane est a Z Roblox = -5,25 (plan de LockSocket, couvre toute la zone libre), deux bras de gond cote charniere. Enfant du groupe DoorAssembly ; origine au pied de la tangente de charniere (-4.5, 2, -4.5) Roblox."
+  },
+  {
+    "asset": "VLT_Lvl3",
+    "object": "DoorStuds",
+    "color": "#8A8F98",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "Boulons acier clair sur l'anneau exterieur. Enfant du groupe DoorAssembly ; origine au pied de la tangente de charniere (-4.5, 2, -4.5) Roblox."
+  },
+  {
+    "asset": "VLT_Lvl3",
+    "object": "GoldPoint",
+    "color": "#FF00FF",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "marker",
+    "notes": "Racine du coffre. (0, 3, -0.5) Roblox : sol de la cavite, centre en X. Le tas d'or 4 x 4 x 2 tient dans la cavite (sol 4,2 x 6,98, tunnel de rayon 4,1)."
+  },
+  {
+    "asset": "VLT_Lvl3",
+    "object": "Hazard_Black",
+    "color": "#1E1E1E",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "12 segments noirs de l'anneau de danger. Origine au sol, centre."
+  },
+  {
+    "asset": "VLT_Lvl3",
+    "object": "Hazard_Yellow",
+    "color": "#F2C12E",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "12 segments jaunes de l'anneau de danger (rayon 4,58 a 5,2, relief 0,1) autour de l'ouverture, alternes avec Hazard_Black. Origine au sol, centre."
+  },
+  {
+    "asset": "VLT_Lvl3",
+    "object": "Interior",
+    "color": "#2A2A2A",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Parois de la cavite (tunnel rond de rayon 4,1 a sol plat), normales vers l'interieur, a 0,02 du Body. Sol a Y Roblox = 3,0, large de 4,2 ; profondeur 6,98."
+  },
+  {
+    "asset": "VLT_Lvl3",
+    "object": "LockSocket",
+    "color": "#FF00FF",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "marker",
+    "notes": "Racine du coffre. (0, 3.5, -5.25) Roblox : face avant de la porte, a 3,5 du sol. Zone libre 2,6 x 2,6 autour (face de porte plane, aucun relief)."
+  },
+  {
+    "asset": "VLT_Lvl3",
+    "object": "Trim",
+    "color": "#5A5F66",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "fixed",
+    "notes": "Acier fixe : 4 montants d'angle, nervures laterales, partie fixe des deux gonds massifs (cote -X Roblox). Origine au sol, centre."
+  },
+  {
+    "asset": "VLT_Lvl3",
+    "object": "Wheel",
+    "color": "#8A8F98",
+    "material": "Metal",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "Grand volant a 5 branches au centre de la porte, au-dessus de la zone libre. Enfant du groupe DoorAssembly ; origine SUR L'AXE du volant (-0, 6.5, -5) Roblox, axe de rotation = Z Roblox."
+  },
+  {
+    "asset": "VLT_Lvl3",
+    "object": "WheelGrips",
+    "color": "#F2C12E",
+    "material": "SmoothPlastic",
+    "canCollide": false,
+    "role": "moving",
+    "notes": "5 poignees jaunes du volant (tournent avec Wheel). Enfant du groupe DoorAssembly ; origine SUR L'AXE du volant (-0, 6.5, -5) Roblox, axe de rotation = Z Roblox."
+  }
+]

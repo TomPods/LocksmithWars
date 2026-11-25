@@ -1,0 +1,3703 @@
+{
+ "variante": "B",
+ "nom": "Place du marché",
+ "date": "2026-11-17",
+ "origine_monde": [
+  1600,
+  0,
+  0
+ ],
+ "repere": "coordonnées relatives à l'origine ; nord = -Z ; sol y = 0",
+ "dimensions": {
+  "zone_jouable_x": [
+   -52,
+   52
+  ],
+  "zone_jouable_z": [
+   -150,
+   102
+  ],
+  "largeur_rue": 40,
+  "place_ronde_rayon": 34,
+  "cuvette": {
+   "fond_y": -1.5,
+   "fond_rayon": 26,
+   "rampes": "24 rampes radiales de 8 (r 26 -> 34), pente 10,6°, aucune marche"
+  },
+  "pietement_rares": {
+   "dessus_y": 2,
+   "taille": [
+    19,
+    9
+   ],
+   "rampes": "2 rampes nord/sud de 19 x 10, pente 19,3°"
+  },
+  "place_nord": [
+   104,
+   48
+  ],
+  "longueur_totale_interieure": 252,
+  "largeur_totale_interieure": 104,
+  "falaises_hauteur": [
+   30,
+   40
+  ]
+ },
+ "methode_trajets": "Identique à A : PathfindingService (AgentRadius 2, AgentHeight 5, AgentCanJump true), ComputeAsync en mode Édition ; longueur = somme des segments entre waypoints ; temps = longueur / 16. Cible gisement = point à (demi-largeur + 2) studs du bloc, côté départ. Cible enclume = AnvilStand (3 studs au sud du centre de l'enclume). Départ coffre = 2 studs devant la porte. Aucun saut dans les chemins retenus.",
+ "trajets": {
+  "Plot1": {
+   "repere_le_plus_proche": "Ore_C1",
+   "coffre_vers_gisement": {
+    "studs": 64.64,
+    "s": 4.04
+   },
+   "coffre_vers_enclume": {
+    "studs": 47.09,
+    "s": 2.94
+   },
+   "centre_mine_vers_coffre": {
+    "studs": 88.61,
+    "s": 5.54
+   }
+  },
+  "Plot2": {
+   "repere_le_plus_proche": "Ore_C1",
+   "coffre_vers_gisement": {
+    "studs": 31.54,
+    "s": 1.97
+   },
+   "coffre_vers_enclume": {
+    "studs": 79.46,
+    "s": 4.97
+   },
+   "centre_mine_vers_coffre": {
+    "studs": 56.85,
+    "s": 3.55
+   }
+  },
+  "Plot3": {
+   "repere_le_plus_proche": "Ore_C7",
+   "coffre_vers_gisement": {
+    "studs": 31.54,
+    "s": 1.97
+   },
+   "coffre_vers_enclume": {
+    "studs": 186.12,
+    "s": 11.63
+   },
+   "centre_mine_vers_coffre": {
+    "studs": 56.85,
+    "s": 3.55
+   }
+  },
+  "Plot4": {
+   "repere_le_plus_proche": "Ore_C7",
+   "coffre_vers_gisement": {
+    "studs": 64.65,
+    "s": 4.04
+   },
+   "coffre_vers_enclume": {
+    "studs": 218.06,
+    "s": 13.63
+   },
+   "centre_mine_vers_coffre": {
+    "studs": 88.62,
+    "s": 5.54
+   }
+  },
+  "Plot5": {
+   "repere_le_plus_proche": "Ore_C2",
+   "coffre_vers_gisement": {
+    "studs": 64.6,
+    "s": 4.04
+   },
+   "coffre_vers_enclume": {
+    "studs": 47.09,
+    "s": 2.94
+   },
+   "centre_mine_vers_coffre": {
+    "studs": 91.19,
+    "s": 5.7
+   }
+  },
+  "Plot6": {
+   "repere_le_plus_proche": "Ore_C2",
+   "coffre_vers_gisement": {
+    "studs": 31.53,
+    "s": 1.97
+   },
+   "coffre_vers_enclume": {
+    "studs": 79.42,
+    "s": 4.96
+   },
+   "centre_mine_vers_coffre": {
+    "studs": 57.46,
+    "s": 3.59
+   }
+  },
+  "Plot7": {
+   "repere_le_plus_proche": "Ore_C8",
+   "coffre_vers_gisement": {
+    "studs": 31.53,
+    "s": 1.97
+   },
+   "coffre_vers_enclume": {
+    "studs": 186.57,
+    "s": 11.66
+   },
+   "centre_mine_vers_coffre": {
+    "studs": 57.47,
+    "s": 3.59
+   }
+  },
+  "Plot8": {
+   "repere_le_plus_proche": "Ore_C8",
+   "coffre_vers_gisement": {
+    "studs": 64.64,
+    "s": 4.04
+   },
+   "coffre_vers_enclume": {
+    "studs": 220.31,
+    "s": 13.77
+   },
+   "centre_mine_vers_coffre": {
+    "studs": 90.64,
+    "s": 5.67
+   }
+  }
+ },
+ "apparition_vers_enclume": {
+  "studs": 17.0,
+  "s": 1.06
+ },
+ "validation_marche": {
+  "trajet": "Plot8 (porte) -> enclume (trajet le plus long)",
+  "chemin_calcule_studs": 220.31,
+  "temps_calcule_s": 13.77,
+  "client_MoveTo": {
+   "temps_reel_s": 13.65,
+   "distance_parcourue": 217.2,
+   "vitesse_moy": 15.91,
+   "arrivee_a": 1.43,
+   "note": "Humanoid:MoveTo côté client sur les waypoints du chemin calculé (passe par le piédestal et ses rampes), WalkSpeed 16"
+  }
+ },
+ "visibilite": {
+  "depuis_centre_mine_y_plus_5": {
+   "coffres_visibles": 8,
+   "liste": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "partiels": "aucun : 9/9 points de la face visibles pour les 8 coffres (œil à (0, 7, 0), sur le piédestal entre les rares)"
+  },
+  "depuis_poste_de_chaque_gisement": {
+   "communs": "8/8 coffres visibles depuis chacun des 8 communs",
+   "rares": "7/8 depuis chacun des 4 rares (le rare voisin masque un coffre)",
+   "moyenne": 7.67,
+   "methode": "poste = repère + 4 studs vers l'extérieur (communs, œil à -1,5 + 5) ou 3,5 studs vers le centre du piédestal (rares, œil à 7) ; rayon vers le centre de la face avant"
+  },
+  "depuis_bord_de_la_place": {
+   "points": "12 points à r = 33,5 tous les 30°, œil à y = 5",
+   "moyenne": 5.33,
+   "minimum": 4,
+   "detail": "0°=4 30°=5 60°=7 90°=4 120°=7 150°=5 180°=4 210°=5 240°=7 270°=4 300°=7 330°=5",
+   "bloqueurs": "falaises de la place (coffres du même côté, angle rasant) 16 rayons ; rares 12 rayons ; un autre coffre 4 rayons"
+  },
+  "disposition_rares": "rectangle (±7,5 ; ±2,6) sur le piédestal, choisie par recherche 2D puis vérifiée par raycast : aucun coffre masqué depuis le centre ni depuis l'anneau des communs (les 4 rares en croix ou en carré au centre en masquaient 8 depuis le centre)"
+ },
+ "cout": {
+  "pieces_geometrie": 187,
+  "pieces_total_avec_etiquettes_et_reperes": 223,
+  "dont_falaises": 70,
+  "dont_sol_et_cuvette": 57,
+  "scene_analysis_client": {
+   "vue_apparition": {
+    "opaque_tris": 9953,
+    "opaque_dc": 9,
+    "ui_dc": 20
+   },
+   "vue_sud_vers_nord": {
+    "opaque_tris": 10133,
+    "opaque_dc": 11,
+    "ui_dc": 22
+   },
+   "vue_mine": {
+    "opaque_tris": 9459,
+    "opaque_dc": 10,
+    "ui_dc": 16
+   }
+  },
+  "estimation_phase_2": "même ordre que A : environ 20 000 à 30 000 triangles dans la vue la plus chargée (8 parcelles + forge + mine en modèles du projet, falaises en ~70 blocs de roche), < 100 draw calls ; la place ronde ajoute 24 rampes et 24 pièces de sol (à fusionner en un seul maillage en phase 2)",
+  "point_de_vue_le_plus_charge": "vue_sud_vers_nord (toute la rue, la place et la forge dans le champ)",
+  "note": "UI = étiquettes BillboardGui de lecture (n'existeront pas en phase 2). Ombres exclues. Les triangles incluent l'avatar de test."
+ },
+ "ecarts_cahier": [
+  "Falaise sud à z = 102 (collée au bout des parcelles 4 et 8) au lieu de ≈ 112 : évite un cul-de-sac de 40 x 10 au bout de la rue.",
+  "Coins de la place (blocs à ±45° et blocs de remplissage entre la place et les parcelles 2/3/6/7) abaissés à 2,5 de haut (rochers bas « CliffLow ») : en pleine hauteur ils masquaient la moitié des coffres depuis les communs est/ouest (4/8) ; abaissés : 8/8.",
+  "Piédestal des rares : rampes nord et sud (pente 19,3°), faces est/ouest en paroi de 3,5 : les rares restent accessibles sans marche.",
+  "Communs en anneau de rayon 20, décalés de 22,5° (aucun sur les axes) pour ne pas se placer dans l'axe de la rue."
+ ],
+ "parcelles": {
+  "Plot1": {
+   "center": [
+    -36,
+    0,
+    -86
+   ],
+   "facingX": 1
+  },
+  "Plot2": {
+   "center": [
+    -36,
+    0,
+    -52
+   ],
+   "facingX": 1
+  },
+  "Plot3": {
+   "center": [
+    -36,
+    0,
+    52
+   ],
+   "facingX": 1
+  },
+  "Plot4": {
+   "center": [
+    -36,
+    0,
+    86
+   ],
+   "facingX": 1
+  },
+  "Plot5": {
+   "center": [
+    36,
+    0,
+    -86
+   ],
+   "facingX": -1
+  },
+  "Plot6": {
+   "center": [
+    36,
+    0,
+    -52
+   ],
+   "facingX": -1
+  },
+  "Plot7": {
+   "center": [
+    36,
+    0,
+    52
+   ],
+   "facingX": -1
+  },
+  "Plot8": {
+   "center": [
+    36,
+    0,
+    86
+   ],
+   "facingX": -1
+  }
+ },
+ "reperes": {
+  "VaultDoor_Plot1": {
+   "vaultCenter": [
+    -27,
+    4.9,
+    -86
+   ],
+   "p": [
+    -21.2,
+    0.4,
+    -86
+   ]
+  },
+  "VaultDoor_Plot2": {
+   "vaultCenter": [
+    -27,
+    4.9,
+    -52
+   ],
+   "p": [
+    -21.2,
+    0.4,
+    -52
+   ]
+  },
+  "VaultDoor_Plot3": {
+   "vaultCenter": [
+    -27,
+    4.9,
+    52
+   ],
+   "p": [
+    -21.2,
+    0.4,
+    52
+   ]
+  },
+  "VaultDoor_Plot4": {
+   "vaultCenter": [
+    -27,
+    4.9,
+    86
+   ],
+   "p": [
+    -21.2,
+    0.4,
+    86
+   ]
+  },
+  "VaultDoor_Plot5": {
+   "vaultCenter": [
+    27,
+    4.9,
+    -86
+   ],
+   "p": [
+    21.2,
+    0.4,
+    -86
+   ]
+  },
+  "VaultDoor_Plot6": {
+   "vaultCenter": [
+    27,
+    4.9,
+    -52
+   ],
+   "p": [
+    21.2,
+    0.4,
+    -52
+   ]
+  },
+  "VaultDoor_Plot7": {
+   "vaultCenter": [
+    27,
+    4.9,
+    52
+   ],
+   "p": [
+    21.2,
+    0.4,
+    52
+   ]
+  },
+  "VaultDoor_Plot8": {
+   "vaultCenter": [
+    27,
+    4.9,
+    86
+   ],
+   "p": [
+    21.2,
+    0.4,
+    86
+   ]
+  },
+  "AnvilStand": {
+   "anvilCenter": [
+    0,
+    1.5,
+    -132
+   ],
+   "p": [
+    0,
+    0,
+    -129
+   ]
+  },
+  "MineCenter": {
+   "p": [
+    0,
+    2,
+    0
+   ]
+  },
+  "SpawnPad": {
+   "p": [
+    0,
+    0.8,
+    -112
+   ]
+  },
+  "Ore_C1": {
+   "p": [
+    -7.65,
+    -1.5,
+    -18.48
+   ]
+  },
+  "Ore_C2": {
+   "p": [
+    7.65,
+    -1.5,
+    -18.48
+   ]
+  },
+  "Ore_C3": {
+   "p": [
+    -18.48,
+    -1.5,
+    -7.65
+   ]
+  },
+  "Ore_C4": {
+   "p": [
+    18.48,
+    -1.5,
+    -7.65
+   ]
+  },
+  "Ore_C5": {
+   "p": [
+    -18.48,
+    -1.5,
+    7.65
+   ]
+  },
+  "Ore_C6": {
+   "p": [
+    18.48,
+    -1.5,
+    7.65
+   ]
+  },
+  "Ore_C7": {
+   "p": [
+    -7.65,
+    -1.5,
+    18.48
+   ]
+  },
+  "Ore_C8": {
+   "p": [
+    7.65,
+    -1.5,
+    18.48
+   ]
+  },
+  "Ore_R1": {
+   "p": [
+    -7.5,
+    2.0,
+    -2.6
+   ]
+  },
+  "Ore_R2": {
+   "p": [
+    7.5,
+    2.0,
+    -2.6
+   ]
+  },
+  "Ore_R3": {
+   "p": [
+    -7.5,
+    2.0,
+    2.6
+   ]
+  },
+  "Ore_R4": {
+   "p": [
+    7.5,
+    2.0,
+    2.6
+   ]
+  }
+ },
+ "geometrie": [
+  {
+   "p": [
+    0,
+    -2.5,
+    0
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "58524e",
+   "s": [
+    72,
+    2,
+    72
+   ],
+   "g": "Ground",
+   "n": "PlazaUnder"
+  },
+  {
+   "p": [
+    0,
+    -1,
+    -93
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "707268",
+   "s": [
+    132,
+    2,
+    118
+   ],
+   "g": "Ground",
+   "n": "Ground"
+  },
+  {
+   "p": [
+    0,
+    -1,
+    69
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "707268",
+   "s": [
+    132,
+    2,
+    70
+   ],
+   "g": "Ground",
+   "n": "Ground"
+  },
+  {
+   "p": [
+    40,
+    -1,
+    0
+   ],
+   "c": "Part",
+   "ry": -90,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    38.64,
+    -1,
+    10.35
+   ],
+   "c": "Part",
+   "ry": -105,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    34.64,
+    -1,
+    20
+   ],
+   "c": "Part",
+   "ry": -120,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    28.28,
+    -1,
+    28.28
+   ],
+   "c": "Part",
+   "ry": -135,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    20,
+    -1,
+    34.64
+   ],
+   "c": "Part",
+   "ry": -150,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    10.35,
+    -1,
+    38.64
+   ],
+   "c": "Part",
+   "ry": -165,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    0,
+    -1,
+    40
+   ],
+   "c": "Part",
+   "ry": -180,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    -10.35,
+    -1,
+    38.64
+   ],
+   "c": "Part",
+   "ry": 165,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    -20,
+    -1,
+    34.64
+   ],
+   "c": "Part",
+   "ry": 150,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    -28.28,
+    -1,
+    28.28
+   ],
+   "c": "Part",
+   "ry": 135,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    -34.64,
+    -1,
+    20
+   ],
+   "c": "Part",
+   "ry": 120,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    -38.64,
+    -1,
+    10.35
+   ],
+   "c": "Part",
+   "ry": 105,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    -40,
+    -1,
+    0
+   ],
+   "c": "Part",
+   "ry": 90,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    -38.64,
+    -1,
+    -10.35
+   ],
+   "c": "Part",
+   "ry": 75,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    -34.64,
+    -1,
+    -20
+   ],
+   "c": "Part",
+   "ry": 60,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    -28.28,
+    -1,
+    -28.28
+   ],
+   "c": "Part",
+   "ry": 45,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    -20,
+    -1,
+    -34.64
+   ],
+   "c": "Part",
+   "ry": 30,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    -10.35,
+    -1,
+    -38.64
+   ],
+   "c": "Part",
+   "ry": 15,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    0,
+    -1,
+    -40
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    10.35,
+    -1,
+    -38.64
+   ],
+   "c": "Part",
+   "ry": -15,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    20,
+    -1,
+    -34.64
+   ],
+   "c": "Part",
+   "ry": -30,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    28.28,
+    -1,
+    -28.28
+   ],
+   "c": "Part",
+   "ry": -45,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    34.64,
+    -1,
+    -20
+   ],
+   "c": "Part",
+   "ry": -60,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    38.64,
+    -1,
+    -10.35
+   ],
+   "c": "Part",
+   "ry": -75,
+   "col": "707268",
+   "s": [
+    12.6,
+    2,
+    12
+   ],
+   "g": "Ground",
+   "n": "RingGround"
+  },
+  {
+   "p": [
+    0,
+    0,
+    -68
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "96948e",
+   "s": [
+    40,
+    0.2,
+    68
+   ],
+   "g": "Ground",
+   "n": "Street"
+  },
+  {
+   "p": [
+    0,
+    0,
+    68
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "96948e",
+   "s": [
+    40,
+    0.2,
+    68
+   ],
+   "g": "Ground",
+   "n": "Street"
+  },
+  {
+   "p": [
+    0,
+    0,
+    -126
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "a5a096",
+   "s": [
+    104,
+    0.2,
+    48
+   ],
+   "g": "Ground",
+   "n": "Square"
+  },
+  {
+   "p": [
+    -36,
+    0,
+    -86
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "80807c",
+   "s": [
+    32,
+    0.2,
+    32
+   ],
+   "g": "Plot1",
+   "n": "Base"
+  },
+  {
+   "p": [
+    -27,
+    0.2,
+    -86
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "5c5c5c",
+   "s": [
+    14,
+    0.4,
+    14
+   ],
+   "g": "Plot1",
+   "n": "Slab"
+  },
+  {
+   "p": [
+    -27,
+    4.9,
+    -86
+   ],
+   "c": "Part",
+   "ry": -90,
+   "col": "3e3e42",
+   "s": [
+    7.6,
+    9,
+    7.6
+   ],
+   "g": "Plot1",
+   "n": "Vault"
+  },
+  {
+   "p": [
+    -23.05,
+    4.6,
+    -86
+   ],
+   "c": "Part",
+   "ry": -90,
+   "col": "b42828",
+   "s": [
+    5.6,
+    7,
+    0.3
+   ],
+   "g": "Plot1",
+   "n": "VaultFront"
+  },
+  {
+   "p": [
+    -36,
+    0,
+    -52
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "80807c",
+   "s": [
+    32,
+    0.2,
+    32
+   ],
+   "g": "Plot2",
+   "n": "Base"
+  },
+  {
+   "p": [
+    -27,
+    0.2,
+    -52
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "5c5c5c",
+   "s": [
+    14,
+    0.4,
+    14
+   ],
+   "g": "Plot2",
+   "n": "Slab"
+  },
+  {
+   "p": [
+    -27,
+    4.9,
+    -52
+   ],
+   "c": "Part",
+   "ry": -90,
+   "col": "3e3e42",
+   "s": [
+    7.6,
+    9,
+    7.6
+   ],
+   "g": "Plot2",
+   "n": "Vault"
+  },
+  {
+   "p": [
+    -23.05,
+    4.6,
+    -52
+   ],
+   "c": "Part",
+   "ry": -90,
+   "col": "b42828",
+   "s": [
+    5.6,
+    7,
+    0.3
+   ],
+   "g": "Plot2",
+   "n": "VaultFront"
+  },
+  {
+   "p": [
+    -36,
+    0,
+    52
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "80807c",
+   "s": [
+    32,
+    0.2,
+    32
+   ],
+   "g": "Plot3",
+   "n": "Base"
+  },
+  {
+   "p": [
+    -27,
+    0.2,
+    52
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "5c5c5c",
+   "s": [
+    14,
+    0.4,
+    14
+   ],
+   "g": "Plot3",
+   "n": "Slab"
+  },
+  {
+   "p": [
+    -27,
+    4.9,
+    52
+   ],
+   "c": "Part",
+   "ry": -90,
+   "col": "3e3e42",
+   "s": [
+    7.6,
+    9,
+    7.6
+   ],
+   "g": "Plot3",
+   "n": "Vault"
+  },
+  {
+   "p": [
+    -23.05,
+    4.6,
+    52
+   ],
+   "c": "Part",
+   "ry": -90,
+   "col": "b42828",
+   "s": [
+    5.6,
+    7,
+    0.3
+   ],
+   "g": "Plot3",
+   "n": "VaultFront"
+  },
+  {
+   "p": [
+    -36,
+    0,
+    86
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "80807c",
+   "s": [
+    32,
+    0.2,
+    32
+   ],
+   "g": "Plot4",
+   "n": "Base"
+  },
+  {
+   "p": [
+    -27,
+    0.2,
+    86
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "5c5c5c",
+   "s": [
+    14,
+    0.4,
+    14
+   ],
+   "g": "Plot4",
+   "n": "Slab"
+  },
+  {
+   "p": [
+    -27,
+    4.9,
+    86
+   ],
+   "c": "Part",
+   "ry": -90,
+   "col": "3e3e42",
+   "s": [
+    7.6,
+    9,
+    7.6
+   ],
+   "g": "Plot4",
+   "n": "Vault"
+  },
+  {
+   "p": [
+    -23.05,
+    4.6,
+    86
+   ],
+   "c": "Part",
+   "ry": -90,
+   "col": "b42828",
+   "s": [
+    5.6,
+    7,
+    0.3
+   ],
+   "g": "Plot4",
+   "n": "VaultFront"
+  },
+  {
+   "p": [
+    36,
+    0,
+    -86
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "80807c",
+   "s": [
+    32,
+    0.2,
+    32
+   ],
+   "g": "Plot5",
+   "n": "Base"
+  },
+  {
+   "p": [
+    27,
+    0.2,
+    -86
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "5c5c5c",
+   "s": [
+    14,
+    0.4,
+    14
+   ],
+   "g": "Plot5",
+   "n": "Slab"
+  },
+  {
+   "p": [
+    27,
+    4.9,
+    -86
+   ],
+   "c": "Part",
+   "ry": 90,
+   "col": "3e3e42",
+   "s": [
+    7.6,
+    9,
+    7.6
+   ],
+   "g": "Plot5",
+   "n": "Vault"
+  },
+  {
+   "p": [
+    23.05,
+    4.6,
+    -86
+   ],
+   "c": "Part",
+   "ry": 90,
+   "col": "b42828",
+   "s": [
+    5.6,
+    7,
+    0.3
+   ],
+   "g": "Plot5",
+   "n": "VaultFront"
+  },
+  {
+   "p": [
+    36,
+    0,
+    -52
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "80807c",
+   "s": [
+    32,
+    0.2,
+    32
+   ],
+   "g": "Plot6",
+   "n": "Base"
+  },
+  {
+   "p": [
+    27,
+    0.2,
+    -52
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "5c5c5c",
+   "s": [
+    14,
+    0.4,
+    14
+   ],
+   "g": "Plot6",
+   "n": "Slab"
+  },
+  {
+   "p": [
+    27,
+    4.9,
+    -52
+   ],
+   "c": "Part",
+   "ry": 90,
+   "col": "3e3e42",
+   "s": [
+    7.6,
+    9,
+    7.6
+   ],
+   "g": "Plot6",
+   "n": "Vault"
+  },
+  {
+   "p": [
+    23.05,
+    4.6,
+    -52
+   ],
+   "c": "Part",
+   "ry": 90,
+   "col": "b42828",
+   "s": [
+    5.6,
+    7,
+    0.3
+   ],
+   "g": "Plot6",
+   "n": "VaultFront"
+  },
+  {
+   "p": [
+    36,
+    0,
+    52
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "80807c",
+   "s": [
+    32,
+    0.2,
+    32
+   ],
+   "g": "Plot7",
+   "n": "Base"
+  },
+  {
+   "p": [
+    27,
+    0.2,
+    52
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "5c5c5c",
+   "s": [
+    14,
+    0.4,
+    14
+   ],
+   "g": "Plot7",
+   "n": "Slab"
+  },
+  {
+   "p": [
+    27,
+    4.9,
+    52
+   ],
+   "c": "Part",
+   "ry": 90,
+   "col": "3e3e42",
+   "s": [
+    7.6,
+    9,
+    7.6
+   ],
+   "g": "Plot7",
+   "n": "Vault"
+  },
+  {
+   "p": [
+    23.05,
+    4.6,
+    52
+   ],
+   "c": "Part",
+   "ry": 90,
+   "col": "b42828",
+   "s": [
+    5.6,
+    7,
+    0.3
+   ],
+   "g": "Plot7",
+   "n": "VaultFront"
+  },
+  {
+   "p": [
+    36,
+    0,
+    86
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "80807c",
+   "s": [
+    32,
+    0.2,
+    32
+   ],
+   "g": "Plot8",
+   "n": "Base"
+  },
+  {
+   "p": [
+    27,
+    0.2,
+    86
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "5c5c5c",
+   "s": [
+    14,
+    0.4,
+    14
+   ],
+   "g": "Plot8",
+   "n": "Slab"
+  },
+  {
+   "p": [
+    27,
+    4.9,
+    86
+   ],
+   "c": "Part",
+   "ry": 90,
+   "col": "3e3e42",
+   "s": [
+    7.6,
+    9,
+    7.6
+   ],
+   "g": "Plot8",
+   "n": "Vault"
+  },
+  {
+   "p": [
+    23.05,
+    4.6,
+    86
+   ],
+   "c": "Part",
+   "ry": 90,
+   "col": "b42828",
+   "s": [
+    5.6,
+    7,
+    0.3
+   ],
+   "g": "Plot8",
+   "n": "VaultFront"
+  },
+  {
+   "p": [
+    -36.5,
+    1,
+    -69
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "69625a",
+   "s": [
+    31,
+    2,
+    0.4
+   ],
+   "g": "Fences",
+   "n": "Fence"
+  },
+  {
+   "p": [
+    -36.5,
+    1,
+    69
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "69625a",
+   "s": [
+    31,
+    2,
+    0.4
+   ],
+   "g": "Fences",
+   "n": "Fence"
+  },
+  {
+   "p": [
+    -36.5,
+    1,
+    -102
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "69625a",
+   "s": [
+    31,
+    2,
+    0.4
+   ],
+   "g": "Fences",
+   "n": "Fence"
+  },
+  {
+   "p": [
+    36.5,
+    1,
+    -69
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "69625a",
+   "s": [
+    31,
+    2,
+    0.4
+   ],
+   "g": "Fences",
+   "n": "Fence"
+  },
+  {
+   "p": [
+    36.5,
+    1,
+    69
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "69625a",
+   "s": [
+    31,
+    2,
+    0.4
+   ],
+   "g": "Fences",
+   "n": "Fence"
+  },
+  {
+   "p": [
+    36.5,
+    1,
+    -102
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "69625a",
+   "s": [
+    31,
+    2,
+    0.4
+   ],
+   "g": "Fences",
+   "n": "Fence"
+  },
+  {
+   "p": [
+    30,
+    -0.75,
+    0
+   ],
+   "c": "WedgePart",
+   "ry": -90,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    28.98,
+    -0.75,
+    7.76
+   ],
+   "c": "WedgePart",
+   "ry": -105,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    25.98,
+    -0.75,
+    15
+   ],
+   "c": "WedgePart",
+   "ry": -120,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    21.21,
+    -0.75,
+    21.21
+   ],
+   "c": "WedgePart",
+   "ry": -135,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    15,
+    -0.75,
+    25.98
+   ],
+   "c": "WedgePart",
+   "ry": -150,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    7.76,
+    -0.75,
+    28.98
+   ],
+   "c": "WedgePart",
+   "ry": -165,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    0,
+    -0.75,
+    30
+   ],
+   "c": "WedgePart",
+   "ry": -180,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    -7.76,
+    -0.75,
+    28.98
+   ],
+   "c": "WedgePart",
+   "ry": 165,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    -15,
+    -0.75,
+    25.98
+   ],
+   "c": "WedgePart",
+   "ry": 150,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    -21.21,
+    -0.75,
+    21.21
+   ],
+   "c": "WedgePart",
+   "ry": 135,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    -25.98,
+    -0.75,
+    15
+   ],
+   "c": "WedgePart",
+   "ry": 120,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    -28.98,
+    -0.75,
+    7.76
+   ],
+   "c": "WedgePart",
+   "ry": 105,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    -30,
+    -0.75,
+    0
+   ],
+   "c": "WedgePart",
+   "ry": 90,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    -28.98,
+    -0.75,
+    -7.76
+   ],
+   "c": "WedgePart",
+   "ry": 75,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    -25.98,
+    -0.75,
+    -15
+   ],
+   "c": "WedgePart",
+   "ry": 60,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    -21.21,
+    -0.75,
+    -21.21
+   ],
+   "c": "WedgePart",
+   "ry": 45,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    -15,
+    -0.75,
+    -25.98
+   ],
+   "c": "WedgePart",
+   "ry": 30,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    -7.76,
+    -0.75,
+    -28.98
+   ],
+   "c": "WedgePart",
+   "ry": 15,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    0,
+    -0.75,
+    -30
+   ],
+   "c": "WedgePart",
+   "ry": 0,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    7.76,
+    -0.75,
+    -28.98
+   ],
+   "c": "WedgePart",
+   "ry": -15,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    15,
+    -0.75,
+    -25.98
+   ],
+   "c": "WedgePart",
+   "ry": -30,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    21.21,
+    -0.75,
+    -21.21
+   ],
+   "c": "WedgePart",
+   "ry": -45,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    25.98,
+    -0.75,
+    -15
+   ],
+   "c": "WedgePart",
+   "ry": -60,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    28.98,
+    -0.75,
+    -7.76
+   ],
+   "c": "WedgePart",
+   "ry": -75,
+   "col": "645e5a",
+   "s": [
+    9.2,
+    1.5,
+    8
+   ],
+   "g": "Mine",
+   "n": "BowlRamp"
+  },
+  {
+   "p": [
+    0,
+    0.25,
+    0
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "6e6862",
+   "s": [
+    19,
+    3.5,
+    9
+   ],
+   "g": "Mine",
+   "n": "Pedestal"
+  },
+  {
+   "p": [
+    0,
+    0.25,
+    -9.5
+   ],
+   "c": "WedgePart",
+   "ry": 0,
+   "col": "6e6862",
+   "s": [
+    19,
+    3.5,
+    10
+   ],
+   "g": "Mine",
+   "n": "PedestalRampN"
+  },
+  {
+   "p": [
+    0,
+    0.25,
+    9.5
+   ],
+   "c": "WedgePart",
+   "ry": -180,
+   "col": "6e6862",
+   "s": [
+    19,
+    3.5,
+    10
+   ],
+   "g": "Mine",
+   "n": "PedestalRampS"
+  },
+  {
+   "p": [
+    -7.65,
+    0.5,
+    -18.48
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "d2d2d2",
+   "s": [
+    4,
+    4,
+    4
+   ],
+   "g": "Ores",
+   "n": "Ore_C1"
+  },
+  {
+   "p": [
+    7.65,
+    0.5,
+    -18.48
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "d2d2d2",
+   "s": [
+    4,
+    4,
+    4
+   ],
+   "g": "Ores",
+   "n": "Ore_C2"
+  },
+  {
+   "p": [
+    -18.48,
+    0.5,
+    -7.65
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "d2d2d2",
+   "s": [
+    4,
+    4,
+    4
+   ],
+   "g": "Ores",
+   "n": "Ore_C3"
+  },
+  {
+   "p": [
+    18.48,
+    0.5,
+    -7.65
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "d2d2d2",
+   "s": [
+    4,
+    4,
+    4
+   ],
+   "g": "Ores",
+   "n": "Ore_C4"
+  },
+  {
+   "p": [
+    -18.48,
+    0.5,
+    7.65
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "d2d2d2",
+   "s": [
+    4,
+    4,
+    4
+   ],
+   "g": "Ores",
+   "n": "Ore_C5"
+  },
+  {
+   "p": [
+    18.48,
+    0.5,
+    7.65
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "d2d2d2",
+   "s": [
+    4,
+    4,
+    4
+   ],
+   "g": "Ores",
+   "n": "Ore_C6"
+  },
+  {
+   "p": [
+    -7.65,
+    0.5,
+    18.48
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "d2d2d2",
+   "s": [
+    4,
+    4,
+    4
+   ],
+   "g": "Ores",
+   "n": "Ore_C7"
+  },
+  {
+   "p": [
+    7.65,
+    0.5,
+    18.48
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "d2d2d2",
+   "s": [
+    4,
+    4,
+    4
+   ],
+   "g": "Ores",
+   "n": "Ore_C8"
+  },
+  {
+   "p": [
+    -7.5,
+    5.25,
+    -2.6
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "8c46cd",
+   "s": [
+    3.5,
+    6.5,
+    3.5
+   ],
+   "g": "Ores",
+   "n": "Ore_R1"
+  },
+  {
+   "p": [
+    7.5,
+    5.25,
+    -2.6
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "8c46cd",
+   "s": [
+    3.5,
+    6.5,
+    3.5
+   ],
+   "g": "Ores",
+   "n": "Ore_R2"
+  },
+  {
+   "p": [
+    -7.5,
+    5.25,
+    2.6
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "8c46cd",
+   "s": [
+    3.5,
+    6.5,
+    3.5
+   ],
+   "g": "Ores",
+   "n": "Ore_R3"
+  },
+  {
+   "p": [
+    7.5,
+    5.25,
+    2.6
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "8c46cd",
+   "s": [
+    3.5,
+    6.5,
+    3.5
+   ],
+   "g": "Ores",
+   "n": "Ore_R4"
+  },
+  {
+   "p": [
+    0,
+    5,
+    -143
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "b07042",
+   "s": [
+    20,
+    10,
+    14
+   ],
+   "g": "Square",
+   "n": "ForgeBlock"
+  },
+  {
+   "p": [
+    6,
+    14,
+    -146
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "96603c",
+   "s": [
+    4,
+    8,
+    4
+   ],
+   "g": "Square",
+   "n": "ForgeChimney"
+  },
+  {
+   "p": [
+    0,
+    1.5,
+    -132
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "46464c",
+   "s": [
+    4,
+    3,
+    2
+   ],
+   "g": "Square",
+   "n": "AnvilBlock"
+  },
+  {
+   "p": [
+    0,
+    0.4,
+    -112
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "5470a0",
+   "s": [
+    12,
+    0.8,
+    12
+   ],
+   "g": "Square",
+   "n": "SpawnPad"
+  },
+  {
+   "p": [
+    -22,
+    6.5,
+    -118
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "3a3c48",
+   "s": [
+    12,
+    10,
+    1
+   ],
+   "g": "Square",
+   "n": "Board1"
+  },
+  {
+   "p": [
+    -27,
+    0.75,
+    -118
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "3a3c48",
+   "s": [
+    0.8,
+    1.5,
+    0.8
+   ],
+   "g": "Square",
+   "n": "BoardPost1a"
+  },
+  {
+   "p": [
+    -17,
+    0.75,
+    -118
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "3a3c48",
+   "s": [
+    0.8,
+    1.5,
+    0.8
+   ],
+   "g": "Square",
+   "n": "BoardPost1b"
+  },
+  {
+   "p": [
+    22,
+    6.5,
+    -118
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "3a3c48",
+   "s": [
+    12,
+    10,
+    1
+   ],
+   "g": "Square",
+   "n": "Board2"
+  },
+  {
+   "p": [
+    17,
+    0.75,
+    -118
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "3a3c48",
+   "s": [
+    0.8,
+    1.5,
+    0.8
+   ],
+   "g": "Square",
+   "n": "BoardPost2a"
+  },
+  {
+   "p": [
+    27,
+    0.75,
+    -118
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "3a3c48",
+   "s": [
+    0.8,
+    1.5,
+    0.8
+   ],
+   "g": "Square",
+   "n": "BoardPost2b"
+  },
+  {
+   "p": [
+    -58.29,
+    18.67,
+    -141.86
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7e766c",
+   "s": [
+    12.59,
+    37.33,
+    17.29
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -58.72,
+    17.51,
+    -125.57
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "847c72",
+   "s": [
+    13.45,
+    35.03,
+    17.29
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -58.02,
+    16.69,
+    -109.29
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7f776d",
+   "s": [
+    12.05,
+    33.39,
+    17.29
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -59.65,
+    15.12,
+    -93
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "867e74",
+   "s": [
+    15.3,
+    30.23,
+    17.29
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -59.48,
+    19.23,
+    -76.71
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7f776d",
+   "s": [
+    14.96,
+    38.45,
+    17.29
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -58.96,
+    15.58,
+    -60.43
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7f776d",
+   "s": [
+    13.91,
+    31.15,
+    17.29
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -58.05,
+    15.97,
+    -44.14
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7e766c",
+   "s": [
+    12.11,
+    31.93,
+    17.29
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -59.14,
+    15.99,
+    44.25
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "797167",
+   "s": [
+    14.29,
+    31.98,
+    17.5
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -58.74,
+    19.56,
+    60.75
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "847c72",
+   "s": [
+    13.48,
+    39.11,
+    17.5
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -59.29,
+    15.7,
+    77.25
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "847c72",
+   "s": [
+    14.58,
+    31.39,
+    17.5
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -58.53,
+    16.04,
+    93.75
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "797167",
+   "s": [
+    13.07,
+    32.07,
+    17.5
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    58.77,
+    15.48,
+    -141.86
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "847c72",
+   "s": [
+    13.54,
+    30.96,
+    17.29
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    59.3,
+    17.2,
+    -125.57
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7f776d",
+   "s": [
+    14.61,
+    34.4,
+    17.29
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    59.35,
+    17.22,
+    -109.29
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7a7268",
+   "s": [
+    14.71,
+    34.44,
+    17.29
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    59.7,
+    15.78,
+    -93
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7e766c",
+   "s": [
+    15.41,
+    31.57,
+    17.29
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    59.39,
+    18.31,
+    -76.71
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7f776d",
+   "s": [
+    14.79,
+    36.63,
+    17.29
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    58.69,
+    19.88,
+    -60.43
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7f776d",
+   "s": [
+    13.38,
+    39.76,
+    17.29
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    58.23,
+    17.8,
+    -44.14
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "847c72",
+   "s": [
+    12.46,
+    35.6,
+    17.29
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    59.33,
+    16.71,
+    44.25
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7a7268",
+   "s": [
+    14.66,
+    33.41,
+    17.5
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    59.16,
+    17.44,
+    60.75
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7f776d",
+   "s": [
+    14.32,
+    34.88,
+    17.5
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    58.56,
+    16.54,
+    77.25
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "797167",
+   "s": [
+    13.12,
+    33.08,
+    17.5
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    59.8,
+    17.29,
+    93.75
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "867e74",
+   "s": [
+    15.59,
+    34.59,
+    17.5
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -57.75,
+    15.99,
+    -157.81
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "867e74",
+   "s": [
+    17.5,
+    31.98,
+    15.63
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -41.25,
+    16.18,
+    -156.66
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "797167",
+   "s": [
+    17.5,
+    32.36,
+    13.32
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -24.75,
+    17.33,
+    -157.57
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "797167",
+   "s": [
+    17.5,
+    34.65,
+    15.14
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -8.25,
+    16.68,
+    -157
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7e766c",
+   "s": [
+    17.5,
+    33.36,
+    13.99
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    8.25,
+    15.06,
+    -156.35
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "867e74",
+   "s": [
+    17.5,
+    30.12,
+    12.7
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    24.75,
+    17.64,
+    -156.94
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "797167",
+   "s": [
+    17.5,
+    35.28,
+    13.89
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    41.25,
+    17.49,
+    -156.69
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "847c72",
+   "s": [
+    17.5,
+    34.98,
+    13.37
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    57.75,
+    15.78,
+    -156.61
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "867e74",
+   "s": [
+    17.5,
+    31.57,
+    13.22
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -57.75,
+    18.07,
+    109.59
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "797167",
+   "s": [
+    17.5,
+    36.13,
+    15.18
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -41.25,
+    18.56,
+    108.8
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7a7268",
+   "s": [
+    17.5,
+    37.12,
+    13.59
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -24.75,
+    18.44,
+    108.34
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "847c72",
+   "s": [
+    17.5,
+    36.89,
+    12.69
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -8.25,
+    18.54,
+    109.09
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "797167",
+   "s": [
+    17.5,
+    37.08,
+    14.19
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    8.25,
+    15.21,
+    108.39
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "797167",
+   "s": [
+    17.5,
+    30.43,
+    12.79
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    24.75,
+    15.01,
+    109.25
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "867e74",
+   "s": [
+    17.5,
+    30.03,
+    14.5
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    41.25,
+    15.14,
+    109.09
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7f776d",
+   "s": [
+    17.5,
+    30.28,
+    14.17
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    57.75,
+    16.47,
+    108.28
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7a7268",
+   "s": [
+    17.5,
+    32.93,
+    12.55
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    27.58,
+    1.25,
+    -27.58
+   ],
+   "c": "Part",
+   "ry": -45,
+   "col": "6e6862",
+   "s": [
+    10,
+    2.5,
+    10
+   ],
+   "g": "Cliffs",
+   "n": "CliffLow"
+  },
+  {
+   "p": [
+    37.24,
+    19.55,
+    -21.5
+   ],
+   "c": "Part",
+   "ry": -60,
+   "col": "867e74",
+   "s": [
+    10,
+    39.1,
+    18
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    41.53,
+    16.31,
+    -11.13
+   ],
+   "c": "Part",
+   "ry": -75,
+   "col": "7e766c",
+   "s": [
+    10,
+    32.62,
+    18
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    43,
+    19.84,
+    0
+   ],
+   "c": "Part",
+   "ry": -90,
+   "col": "797167",
+   "s": [
+    10,
+    39.68,
+    18
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    41.53,
+    17.42,
+    11.13
+   ],
+   "c": "Part",
+   "ry": -105,
+   "col": "847c72",
+   "s": [
+    10,
+    34.83,
+    18
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    37.24,
+    18.3,
+    21.5
+   ],
+   "c": "Part",
+   "ry": -120,
+   "col": "7f776d",
+   "s": [
+    10,
+    36.6,
+    18
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    27.58,
+    1.25,
+    27.58
+   ],
+   "c": "Part",
+   "ry": -135,
+   "col": "6e6862",
+   "s": [
+    10,
+    2.5,
+    10
+   ],
+   "g": "Cliffs",
+   "n": "CliffLow"
+  },
+  {
+   "p": [
+    -27.58,
+    1.25,
+    27.58
+   ],
+   "c": "Part",
+   "ry": 135,
+   "col": "6e6862",
+   "s": [
+    10,
+    2.5,
+    10
+   ],
+   "g": "Cliffs",
+   "n": "CliffLow"
+  },
+  {
+   "p": [
+    -37.24,
+    17.52,
+    21.5
+   ],
+   "c": "Part",
+   "ry": 120,
+   "col": "7a7268",
+   "s": [
+    10,
+    35.04,
+    18
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -41.53,
+    16.92,
+    11.13
+   ],
+   "c": "Part",
+   "ry": 105,
+   "col": "847c72",
+   "s": [
+    10,
+    33.85,
+    18
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -43,
+    17.84,
+    0
+   ],
+   "c": "Part",
+   "ry": 90,
+   "col": "7a7268",
+   "s": [
+    10,
+    35.68,
+    18
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -41.53,
+    17.12,
+    -11.13
+   ],
+   "c": "Part",
+   "ry": 75,
+   "col": "7a7268",
+   "s": [
+    10,
+    34.25,
+    18
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -37.24,
+    15.27,
+    -21.5
+   ],
+   "c": "Part",
+   "ry": 60,
+   "col": "7e766c",
+   "s": [
+    10,
+    30.53,
+    18
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    -27.58,
+    1.25,
+    -27.58
+   ],
+   "c": "Part",
+   "ry": 45,
+   "col": "6e6862",
+   "s": [
+    10,
+    2.5,
+    10
+   ],
+   "g": "Cliffs",
+   "n": "CliffLow"
+  },
+  {
+   "p": [
+    -33,
+    1.25,
+    -31.75
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "6e6862",
+   "s": [
+    26,
+    2.5,
+    8.5
+   ],
+   "g": "Cliffs",
+   "n": "CliffLow"
+  },
+  {
+   "p": [
+    -33,
+    1.25,
+    31.75
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "6e6862",
+   "s": [
+    26,
+    2.5,
+    8.5
+   ],
+   "g": "Cliffs",
+   "n": "CliffLow"
+  },
+  {
+   "p": [
+    -55,
+    17.82,
+    0
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7a7268",
+   "s": [
+    18,
+    35.64,
+    72
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    33,
+    1.25,
+    -31.75
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "6e6862",
+   "s": [
+    26,
+    2.5,
+    8.5
+   ],
+   "g": "Cliffs",
+   "n": "CliffLow"
+  },
+  {
+   "p": [
+    33,
+    1.25,
+    31.75
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "6e6862",
+   "s": [
+    26,
+    2.5,
+    8.5
+   ],
+   "g": "Cliffs",
+   "n": "CliffLow"
+  },
+  {
+   "p": [
+    55,
+    15.23,
+    0
+   ],
+   "c": "Part",
+   "ry": 0,
+   "col": "7e766c",
+   "s": [
+    18,
+    30.46,
+    72
+   ],
+   "g": "Cliffs",
+   "n": "Cliff"
+  },
+  {
+   "p": [
+    57.75,
+    36.03,
+    -156.61
+   ],
+   "c": "Part",
+   "ry": 1.61,
+   "col": "7f776d",
+   "s": [
+    10.63,
+    12.92,
+    9.58
+   ],
+   "g": "Cliffs",
+   "n": "CliffTilt"
+  },
+  {
+   "p": [
+    59.39,
+    41.03,
+    -76.71
+   ],
+   "c": "Part",
+   "ry": -10.89,
+   "col": "7a7268",
+   "s": [
+    11.63,
+    12.81,
+    10.97
+   ],
+   "g": "Cliffs",
+   "n": "CliffTilt"
+  },
+  {
+   "p": [
+    41.53,
+    38.68,
+    11.13
+   ],
+   "c": "Part",
+   "ry": -5.48,
+   "col": "797167",
+   "s": [
+    10.03,
+    11.69,
+    10.1
+   ],
+   "g": "Cliffs",
+   "n": "CliffTilt"
+  },
+  {
+   "p": [
+    -41.25,
+    35.46,
+    -156.66
+   ],
+   "c": "Part",
+   "ry": -8.44,
+   "col": "7a7268",
+   "s": [
+    8.71,
+    10.2,
+    9.38
+   ],
+   "g": "Cliffs",
+   "n": "CliffTilt"
+  },
+  {
+   "p": [
+    -24.75,
+    40.81,
+    108.34
+   ],
+   "c": "Part",
+   "ry": -10.57,
+   "col": "7a7268",
+   "s": [
+    8.68,
+    11.85,
+    10.27
+   ],
+   "g": "Cliffs",
+   "n": "CliffTilt"
+  },
+  {
+   "p": [
+    41.25,
+    34.41,
+    109.09
+   ],
+   "c": "Part",
+   "ry": -7.08,
+   "col": "7f776d",
+   "s": [
+    11.99,
+    12.26,
+    10.16
+   ],
+   "g": "Cliffs",
+   "n": "CliffTilt"
+  },
+  {
+   "p": [
+    -8.25,
+    37.42,
+    -157
+   ],
+   "c": "Part",
+   "ry": -2.26,
+   "col": "867e74",
+   "s": [
+    11.1,
+    12.12,
+    9.85
+   ],
+   "g": "Cliffs",
+   "n": "CliffTilt"
+  },
+  {
+   "p": [
+    -57.75,
+    35.36,
+    -157.81
+   ],
+   "c": "Part",
+   "ry": -10.16,
+   "col": "7a7268",
+   "s": [
+    10.5,
+    10.75,
+    10.26
+   ],
+   "g": "Cliffs",
+   "n": "CliffTilt"
+  },
+  {
+   "p": [
+    -59.48,
+    41.77,
+    -76.71
+   ],
+   "c": "Part",
+   "ry": 2.34,
+   "col": "7f776d",
+   "s": [
+    11.54,
+    10.63,
+    9.2
+   ],
+   "g": "Cliffs",
+   "n": "CliffTilt"
+  },
+  {
+   "p": [
+    -41.53,
+    37.59,
+    11.13
+   ],
+   "c": "Part",
+   "ry": -6.92,
+   "col": "7e766c",
+   "s": [
+    11.71,
+    11.48,
+    9.92
+   ],
+   "g": "Cliffs",
+   "n": "CliffTilt"
+  },
+  {
+   "p": [
+    -58.74,
+    42.44,
+    60.75
+   ],
+   "c": "Part",
+   "ry": -1.28,
+   "col": "7f776d",
+   "s": [
+    8.17,
+    10.66,
+    10.5
+   ],
+   "g": "Cliffs",
+   "n": "CliffTilt"
+  },
+  {
+   "p": [
+    58.77,
+    34.69,
+    -141.86
+   ],
+   "c": "Part",
+   "ry": 3.2,
+   "col": "867e74",
+   "s": [
+    9.18,
+    11.46,
+    9.81
+   ],
+   "g": "Cliffs",
+   "n": "CliffTilt"
+  }
+ ],
+ "deplacement_2026_11_18": "Maquette déplacée de x = 1400 à x = 1600 (translation pure +200 en X, sans rotation) pour la présentation côte à côte (A 1000 / B 1600 / C 2200). Les mesures sont relatives à l'origine et restent inchangées."
+}
